@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_175b255331898684206145a446a744c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; top: 10px; left: 50px; width: 300px; height: 40px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 16px; font-weight: bold; text-align: center; padding: 5px;">
+        Top 20 Paradas - LA SERENA
+    </div>
+    
+    
+    <div style="position: fixed; bottom: 30px; left: 10px; width: 200px; height: 60px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 14px; padding: 10px;">
+        <b>Prioridad de refugio</b><br>
+        <span style="color: red;">&#9679;</span> Demanda muy alta<br>
+        <span style="color: orange;">&#9679;</span> Demanda alta
+    </div>
+    
+    
+            <div class="folium-map" id="map_175b255331898684206145a446a744c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_175b255331898684206145a446a744c7 = L.map(
+                "map_175b255331898684206145a446a744c7",
+                {
+                    center: [-29.903087417145002, -71.246939999335],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_175b255331898684206145a446a744c7);
+
+            
+
+        
+    
+            var tile_layer_776b9cd0df7ca971b321b13d5b0acd0d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_776b9cd0df7ca971b321b13d5b0acd0d.addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var marker_cf50e62447de4cd4d277396e02daf39d = L.marker(
+                [-29.90222784, -71.2470263345],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_aa7cfaec9882fdfec49786863256b336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31a8c60619def6e546136ddf7b0bf58e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_185415c725cb72522c6e8e429728258f = $(`<div id="html_185415c725cb72522c6e8e429728258f" style="width: 100.0%; height: 100.0%;"><b>10-5-SN</b><br>Cienfuegos  esq.  Cantournet<br>Demanda: 24,738<br>Eventos: 9,350</div>`)[0];
+                popup_31a8c60619def6e546136ddf7b0bf58e.setContent(html_185415c725cb72522c6e8e429728258f);
+            
+        
+
+        marker_cf50e62447de4cd4d277396e02daf39d.bindPopup(popup_31a8c60619def6e546136ddf7b0bf58e)
+        ;
+
+        
+    
+    
+            marker_cf50e62447de4cd4d277396e02daf39d.bindTooltip(
+                `<div>
+                     10-5-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf50e62447de4cd4d277396e02daf39d.setIcon(icon_aa7cfaec9882fdfec49786863256b336);
+            
+    
+            var marker_b7403047f968a91caefaa9e6e6ad547f = L.marker(
+                [-29.8884527465, -71.2183882204],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_2e8986fb68e6b9669b81dd03cb09b38d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_811fb289391f75551b199c4232241368 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0634d41688c8a9c1e158bfc17f950d4a = $(`<div id="html_0634d41688c8a9c1e158bfc17f950d4a" style="width: 100.0%; height: 100.0%;"><b>34-0-NS</b><br>Las Pircas  esq.  El Portezuelo<br>Demanda: 19,264<br>Eventos: 8,371</div>`)[0];
+                popup_811fb289391f75551b199c4232241368.setContent(html_0634d41688c8a9c1e158bfc17f950d4a);
+            
+        
+
+        marker_b7403047f968a91caefaa9e6e6ad547f.bindPopup(popup_811fb289391f75551b199c4232241368)
+        ;
+
+        
+    
+    
+            marker_b7403047f968a91caefaa9e6e6ad547f.bindTooltip(
+                `<div>
+                     34-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b7403047f968a91caefaa9e6e6ad547f.setIcon(icon_2e8986fb68e6b9669b81dd03cb09b38d);
+            
+    
+            var marker_3f264f169283902d9807a10ddf11391e = L.marker(
+                [-29.912018274, -71.256283637],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_36a6072b4e2b65954acfc141b303c1c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_601eb1a866bcbde90695a932417f7290 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_835e5bdb56b88af338c77fdd3b30c49d = $(`<div id="html_835e5bdb56b88af338c77fdd3b30c49d" style="width: 100.0%; height: 100.0%;"><b>15-0-NS</b><br>El Santo  esq.  Vicente Huidobro<br>Demanda: 15,772<br>Eventos: 5,295</div>`)[0];
+                popup_601eb1a866bcbde90695a932417f7290.setContent(html_835e5bdb56b88af338c77fdd3b30c49d);
+            
+        
+
+        marker_3f264f169283902d9807a10ddf11391e.bindPopup(popup_601eb1a866bcbde90695a932417f7290)
+        ;
+
+        
+    
+    
+            marker_3f264f169283902d9807a10ddf11391e.bindTooltip(
+                `<div>
+                     15-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f264f169283902d9807a10ddf11391e.setIcon(icon_36a6072b4e2b65954acfc141b303c1c8);
+            
+    
+            var marker_c03cb23879021551b08a4f5dcd5d55fd = L.marker(
+                [-29.9058364744, -71.2484696497],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_306caf894d5da77655337a3cad2e3c25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c556c0193a088ca6a6c5576a2128ce3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebf37b285b28953e4c0ce9250087da84 = $(`<div id="html_ebf37b285b28953e4c0ce9250087da84" style="width: 100.0%; height: 100.0%;"><b>10-0-SN</b><br>Cienfuegos  esq.  Domeyko<br>Demanda: 13,185<br>Eventos: 7,147</div>`)[0];
+                popup_c556c0193a088ca6a6c5576a2128ce3c.setContent(html_ebf37b285b28953e4c0ce9250087da84);
+            
+        
+
+        marker_c03cb23879021551b08a4f5dcd5d55fd.bindPopup(popup_c556c0193a088ca6a6c5576a2128ce3c)
+        ;
+
+        
+    
+    
+            marker_c03cb23879021551b08a4f5dcd5d55fd.bindTooltip(
+                `<div>
+                     10-0-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c03cb23879021551b08a4f5dcd5d55fd.setIcon(icon_306caf894d5da77655337a3cad2e3c25);
+            
+    
+            var marker_7182d88c309cee61a74f4c1e0773c79f = L.marker(
+                [-29.9062763983, -71.2543786879],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_39ec910c3d016ab010f778c35a431180 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_967658f53cea3702a132457b8d703972 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_61a47a8afe586683c63f0765558ebe19 = $(`<div id="html_61a47a8afe586683c63f0765558ebe19" style="width: 100.0%; height: 100.0%;"><b>50-0-NS</b><br>Pedro Pablo Munoz  esq.  Francisco de Aguirre<br>Demanda: 12,512<br>Eventos: 4,980</div>`)[0];
+                popup_967658f53cea3702a132457b8d703972.setContent(html_61a47a8afe586683c63f0765558ebe19);
+            
+        
+
+        marker_7182d88c309cee61a74f4c1e0773c79f.bindPopup(popup_967658f53cea3702a132457b8d703972)
+        ;
+
+        
+    
+    
+            marker_7182d88c309cee61a74f4c1e0773c79f.bindTooltip(
+                `<div>
+                     50-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7182d88c309cee61a74f4c1e0773c79f.setIcon(icon_39ec910c3d016ab010f778c35a431180);
+            
+    
+            var marker_ec57ce958c316d09c86190e468ad22b3 = L.marker(
+                [-29.9102623523, -71.250046509],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_eb9a08512345cf8961be3e4270b1e70a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e164282db6cdcaff96e66eb410edd2fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ceb20fd2e50dfccf3c47f1c4c0a267a = $(`<div id="html_7ceb20fd2e50dfccf3c47f1c4c0a267a" style="width: 100.0%; height: 100.0%;"><b>51-65-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Amunategui<br>Demanda: 9,644<br>Eventos: 5,423</div>`)[0];
+                popup_e164282db6cdcaff96e66eb410edd2fc.setContent(html_7ceb20fd2e50dfccf3c47f1c4c0a267a);
+            
+        
+
+        marker_ec57ce958c316d09c86190e468ad22b3.bindPopup(popup_e164282db6cdcaff96e66eb410edd2fc)
+        ;
+
+        
+    
+    
+            marker_ec57ce958c316d09c86190e468ad22b3.bindTooltip(
+                `<div>
+                     51-65-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec57ce958c316d09c86190e468ad22b3.setIcon(icon_eb9a08512345cf8961be3e4270b1e70a);
+            
+    
+            var marker_024ea7ba4a5219e288373441dd93defe = L.marker(
+                [-29.9164303334, -71.2528372217],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_7201c045b1faa655d61c463db708d5ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c15d9d32c54ff028f5031fac45e7905 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_313624c287c83ade58a9d8c2120b3e90 = $(`<div id="html_313624c287c83ade58a9d8c2120b3e90" style="width: 100.0%; height: 100.0%;"><b>51-55-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Juan Soldado<br>Demanda: 9,635<br>Eventos: 5,304</div>`)[0];
+                popup_1c15d9d32c54ff028f5031fac45e7905.setContent(html_313624c287c83ade58a9d8c2120b3e90);
+            
+        
+
+        marker_024ea7ba4a5219e288373441dd93defe.bindPopup(popup_1c15d9d32c54ff028f5031fac45e7905)
+        ;
+
+        
+    
+    
+            marker_024ea7ba4a5219e288373441dd93defe.bindTooltip(
+                `<div>
+                     51-55-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_024ea7ba4a5219e288373441dd93defe.setIcon(icon_7201c045b1faa655d61c463db708d5ee);
+            
+    
+            var marker_0cebfe16cf4821fdaba30c69691cf160 = L.marker(
+                [-29.9097547686, -71.246901668],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_b54e750f0302ba282fceaefe71cbfa27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56b3d4ebe98a3e67b8506d13216ae681 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_644f3c875876a3a1f677733f81207c41 = $(`<div id="html_644f3c875876a3a1f677733f81207c41" style="width: 100.0%; height: 100.0%;"><b>6-5-SN</b><br>Benavente  esq.  Amunategui<br>Demanda: 8,338<br>Eventos: 4,338</div>`)[0];
+                popup_56b3d4ebe98a3e67b8506d13216ae681.setContent(html_644f3c875876a3a1f677733f81207c41);
+            
+        
+
+        marker_0cebfe16cf4821fdaba30c69691cf160.bindPopup(popup_56b3d4ebe98a3e67b8506d13216ae681)
+        ;
+
+        
+    
+    
+            marker_0cebfe16cf4821fdaba30c69691cf160.bindTooltip(
+                `<div>
+                     6-5-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cebfe16cf4821fdaba30c69691cf160.setIcon(icon_b54e750f0302ba282fceaefe71cbfa27);
+            
+    
+            var marker_bc5c8f262fcf1334ca660d04c64c1bd5 = L.marker(
+                [-29.9027217271, -71.2566558876],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_34d8e655a3a0a3b968e20616292ce095 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfb80758eef77dde3823886ca99ecc2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ddaddfd8f7851013544fdc88ba058884 = $(`<div id="html_ddaddfd8f7851013544fdc88ba058884" style="width: 100.0%; height: 100.0%;"><b>27-0-NS</b><br>Ruta 5 esq.  Eduardo de la Barra<br>Demanda: 7,968<br>Eventos: 4,234</div>`)[0];
+                popup_cfb80758eef77dde3823886ca99ecc2f.setContent(html_ddaddfd8f7851013544fdc88ba058884);
+            
+        
+
+        marker_bc5c8f262fcf1334ca660d04c64c1bd5.bindPopup(popup_cfb80758eef77dde3823886ca99ecc2f)
+        ;
+
+        
+    
+    
+            marker_bc5c8f262fcf1334ca660d04c64c1bd5.bindTooltip(
+                `<div>
+                     27-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc5c8f262fcf1334ca660d04c64c1bd5.setIcon(icon_34d8e655a3a0a3b968e20616292ce095);
+            
+    
+            var marker_548d48593451bddc831c10eba88afbce = L.marker(
+                [-29.8865739657, -71.24352835],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_ccae431d195c1eb8b2bb27b58ad95c65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83fc6ca417028fb7b6790c8003881630 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45df4d4f68b7ef5168c9ccd0c197aad6 = $(`<div id="html_45df4d4f68b7ef5168c9ccd0c197aad6" style="width: 100.0%; height: 100.0%;"><b>5-0-SN</b><br>Bandera  esq.  La Reconquista<br>Demanda: 7,639<br>Eventos: 4,368</div>`)[0];
+                popup_83fc6ca417028fb7b6790c8003881630.setContent(html_45df4d4f68b7ef5168c9ccd0c197aad6);
+            
+        
+
+        marker_548d48593451bddc831c10eba88afbce.bindPopup(popup_83fc6ca417028fb7b6790c8003881630)
+        ;
+
+        
+    
+    
+            marker_548d48593451bddc831c10eba88afbce.bindTooltip(
+                `<div>
+                     5-0-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_548d48593451bddc831c10eba88afbce.setIcon(icon_ccae431d195c1eb8b2bb27b58ad95c65);
+            
+    
+            var marker_bb06621ea179a0ba582af175c7b6c622 = L.marker(
+                [-29.8715475796, -71.2465923362],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_50d0887f7f61876337250974298341f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcf591e364ed28a4b090030fce8245b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51df11a69a277aa2e26e85206c140600 = $(`<div id="html_51df11a69a277aa2e26e85206c140600" style="width: 100.0%; height: 100.0%;"><b>59-0-PO</b><br>Vina del Mar  esq.  Pedro Aguirre Cerda<br>Demanda: 7,442<br>Eventos: 3,529</div>`)[0];
+                popup_bcf591e364ed28a4b090030fce8245b2.setContent(html_51df11a69a277aa2e26e85206c140600);
+            
+        
+
+        marker_bb06621ea179a0ba582af175c7b6c622.bindPopup(popup_bcf591e364ed28a4b090030fce8245b2)
+        ;
+
+        
+    
+    
+            marker_bb06621ea179a0ba582af175c7b6c622.bindTooltip(
+                `<div>
+                     59-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb06621ea179a0ba582af175c7b6c622.setIcon(icon_50d0887f7f61876337250974298341f3);
+            
+    
+            var marker_dd50310fa4cd146b9c6b16be5e8cd961 = L.marker(
+                [-29.8836054931, -71.2450321366],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_3d2437f85f109ef2e0db8fe6bfff80a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c00a0d4d0f7f8dea371b83a0d61fe841 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5d32d219993f0cc9f8ba2c9624bc6c60 = $(`<div id="html_5d32d219993f0cc9f8ba2c9624bc6c60" style="width: 100.0%; height: 100.0%;"><b>30-0-NS</b><br>La Conquista  esq.  Alejandro Flores<br>Demanda: 7,353<br>Eventos: 3,900</div>`)[0];
+                popup_c00a0d4d0f7f8dea371b83a0d61fe841.setContent(html_5d32d219993f0cc9f8ba2c9624bc6c60);
+            
+        
+
+        marker_dd50310fa4cd146b9c6b16be5e8cd961.bindPopup(popup_c00a0d4d0f7f8dea371b83a0d61fe841)
+        ;
+
+        
+    
+    
+            marker_dd50310fa4cd146b9c6b16be5e8cd961.bindTooltip(
+                `<div>
+                     30-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dd50310fa4cd146b9c6b16be5e8cd961.setIcon(icon_3d2437f85f109ef2e0db8fe6bfff80a5);
+            
+    
+            var marker_f2f401d346504572b7949992bf0bd14d = L.marker(
+                [-29.88567333, -71.2248750611],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_61bde07356e263b8eb3df0ada56ba302 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f5b3d24fa178cbc8c600b19b70f9e9f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_779a18acb03f5f47697b86f677778e15 = $(`<div id="html_779a18acb03f5f47697b86f677778e15" style="width: 100.0%; height: 100.0%;"><b>25-25-PO</b><br>Gaspar Marin  esq.  Roberto Ochoa<br>Demanda: 6,618<br>Eventos: 3,195</div>`)[0];
+                popup_6f5b3d24fa178cbc8c600b19b70f9e9f.setContent(html_779a18acb03f5f47697b86f677778e15);
+            
+        
+
+        marker_f2f401d346504572b7949992bf0bd14d.bindPopup(popup_6f5b3d24fa178cbc8c600b19b70f9e9f)
+        ;
+
+        
+    
+    
+            marker_f2f401d346504572b7949992bf0bd14d.bindTooltip(
+                `<div>
+                     25-25-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2f401d346504572b7949992bf0bd14d.setIcon(icon_61bde07356e263b8eb3df0ada56ba302);
+            
+    
+            var marker_3bc971a65e0f7e1ce551cd57555bd29d = L.marker(
+                [-29.9209468373, -71.2551227921],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_671066aa1b6d4d38675486ae2ceaafdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f711efef2424451cbbb65af727c016c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00be496d44d5f8df90e70523590275eb = $(`<div id="html_00be496d44d5f8df90e70523590275eb" style="width: 100.0%; height: 100.0%;"><b>51-45-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Las Higueras<br>Demanda: 5,923<br>Eventos: 4,331</div>`)[0];
+                popup_8f711efef2424451cbbb65af727c016c.setContent(html_00be496d44d5f8df90e70523590275eb);
+            
+        
+
+        marker_3bc971a65e0f7e1ce551cd57555bd29d.bindPopup(popup_8f711efef2424451cbbb65af727c016c)
+        ;
+
+        
+    
+    
+            marker_3bc971a65e0f7e1ce551cd57555bd29d.bindTooltip(
+                `<div>
+                     51-45-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3bc971a65e0f7e1ce551cd57555bd29d.setIcon(icon_671066aa1b6d4d38675486ae2ceaafdf);
+            
+    
+            var marker_4c1ccc0f4e6dd8544b8ea5cf80165264 = L.marker(
+                [-29.9320495382, -71.2594225599],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_748251f5f38978c91460ee1738138040 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d0312602465afbc33b1260685e41816 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_30d939ac7a82874c38f004a7b09db085 = $(`<div id="html_30d939ac7a82874c38f004a7b09db085" style="width: 100.0%; height: 100.0%;"><b>51-25-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Arica SN<br>Demanda: 5,912<br>Eventos: 3,701</div>`)[0];
+                popup_3d0312602465afbc33b1260685e41816.setContent(html_30d939ac7a82874c38f004a7b09db085);
+            
+        
+
+        marker_4c1ccc0f4e6dd8544b8ea5cf80165264.bindPopup(popup_3d0312602465afbc33b1260685e41816)
+        ;
+
+        
+    
+    
+            marker_4c1ccc0f4e6dd8544b8ea5cf80165264.bindTooltip(
+                `<div>
+                     51-25-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c1ccc0f4e6dd8544b8ea5cf80165264.setIcon(icon_748251f5f38978c91460ee1738138040);
+            
+    
+            var marker_2195a4b71fc27d58110b711f7b41a5c6 = L.marker(
+                [-29.91256328, -71.2508699467],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_52b7dd7eb1e9419f5631624874488c19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b196bea6fdee3ccddf4fb68eea83b71d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_188e2a07a0502c01abb9ee4342765d84 = $(`<div id="html_188e2a07a0502c01abb9ee4342765d84" style="width: 100.0%; height: 100.0%;"><b>51-60-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Anima de Diego<br>Demanda: 5,797<br>Eventos: 4,039</div>`)[0];
+                popup_b196bea6fdee3ccddf4fb68eea83b71d.setContent(html_188e2a07a0502c01abb9ee4342765d84);
+            
+        
+
+        marker_2195a4b71fc27d58110b711f7b41a5c6.bindPopup(popup_b196bea6fdee3ccddf4fb68eea83b71d)
+        ;
+
+        
+    
+    
+            marker_2195a4b71fc27d58110b711f7b41a5c6.bindTooltip(
+                `<div>
+                     51-60-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2195a4b71fc27d58110b711f7b41a5c6.setIcon(icon_52b7dd7eb1e9419f5631624874488c19);
+            
+    
+            var marker_b86f9707d2c8c5a6a90940914546d32f = L.marker(
+                [-29.9059658494, -71.2557725322],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_e3015d679d5ca1f11f6cf733131d556d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1682d3d65c312eff12f5a7aa5be4c9f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_296e987a14d613adf8c48b915ccb87b1 = $(`<div id="html_296e987a14d613adf8c48b915ccb87b1" style="width: 100.0%; height: 100.0%;"><b>20-0-PO</b><br>Francisco de Aguirre  esq.  Isabel Riquelme<br>Demanda: 5,753<br>Eventos: 2,642</div>`)[0];
+                popup_1682d3d65c312eff12f5a7aa5be4c9f8.setContent(html_296e987a14d613adf8c48b915ccb87b1);
+            
+        
+
+        marker_b86f9707d2c8c5a6a90940914546d32f.bindPopup(popup_1682d3d65c312eff12f5a7aa5be4c9f8)
+        ;
+
+        
+    
+    
+            marker_b86f9707d2c8c5a6a90940914546d32f.bindTooltip(
+                `<div>
+                     20-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b86f9707d2c8c5a6a90940914546d32f.setIcon(icon_e3015d679d5ca1f11f6cf733131d556d);
+            
+    
+            var marker_b75e38745b7b32bbf13d0a999534243c = L.marker(
+                [-29.9279087956, -71.25815822],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_20d0295e8ea33c8069794626399ae72c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3a8ac9827a122b023346687264fd527 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_867f0426473c791acda5046d04ce3a58 = $(`<div id="html_867f0426473c791acda5046d04ce3a58" style="width: 100.0%; height: 100.0%;"><b>51-30-SN</b><br>Presidente Jose Manuel Balmaceda  esq.  Jose Zapiola<br>Demanda: 5,568<br>Eventos: 3,321</div>`)[0];
+                popup_a3a8ac9827a122b023346687264fd527.setContent(html_867f0426473c791acda5046d04ce3a58);
+            
+        
+
+        marker_b75e38745b7b32bbf13d0a999534243c.bindPopup(popup_a3a8ac9827a122b023346687264fd527)
+        ;
+
+        
+    
+    
+            marker_b75e38745b7b32bbf13d0a999534243c.bindTooltip(
+                `<div>
+                     51-30-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b75e38745b7b32bbf13d0a999534243c.setIcon(icon_20d0295e8ea33c8069794626399ae72c);
+            
+    
+            var marker_7593e8b9c9edb6482c2baf3527134a72 = L.marker(
+                [-29.89328399, -71.2498334757],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_f99396cd451f300f21013570bd4035e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_458a524e1c1ee73fd007099bffe877da = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8a4f53cf38a6e2dd98f0b06b3719767 = $(`<div id="html_e8a4f53cf38a6e2dd98f0b06b3719767" style="width: 100.0%; height: 100.0%;"><b>13-15-NS</b><br>El Islon  esq.  Costanera<br>Demanda: 5,310<br>Eventos: 2,921</div>`)[0];
+                popup_458a524e1c1ee73fd007099bffe877da.setContent(html_e8a4f53cf38a6e2dd98f0b06b3719767);
+            
+        
+
+        marker_7593e8b9c9edb6482c2baf3527134a72.bindPopup(popup_458a524e1c1ee73fd007099bffe877da)
+        ;
+
+        
+    
+    
+            marker_7593e8b9c9edb6482c2baf3527134a72.bindTooltip(
+                `<div>
+                     13-15-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7593e8b9c9edb6482c2baf3527134a72.setIcon(icon_f99396cd451f300f21013570bd4035e2);
+            
+    
+            var marker_c0905fc3aec0171abe96768a549ce8fc = L.marker(
+                [-29.8876487694, -71.2186047604],
+                {
+}
+            ).addTo(map_175b255331898684206145a446a744c7);
+        
+    
+            var icon_6572f6188db6535caf026a3824b3993e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_138f02f656340d83264069aaa9700807 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_75b2bea554e9328a055eca513f377d70 = $(`<div id="html_75b2bea554e9328a055eca513f377d70" style="width: 100.0%; height: 100.0%;"><b>40-5-PO</b><br>Los Morros  esq.  Los Arenales<br>Demanda: 4,921<br>Eventos: 4,185</div>`)[0];
+                popup_138f02f656340d83264069aaa9700807.setContent(html_75b2bea554e9328a055eca513f377d70);
+            
+        
+
+        marker_c0905fc3aec0171abe96768a549ce8fc.bindPopup(popup_138f02f656340d83264069aaa9700807)
+        ;
+
+        
+    
+    
+            marker_c0905fc3aec0171abe96768a549ce8fc.bindTooltip(
+                `<div>
+                     40-5-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0905fc3aec0171abe96768a549ce8fc.setIcon(icon_6572f6188db6535caf026a3824b3993e);
+            
+</script>
+</html>

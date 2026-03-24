@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_973c4bf56bba9a8276353c8e504e6952 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; top: 10px; left: 50px; width: 300px; height: 40px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 16px; font-weight: bold; text-align: center; padding: 5px;">
+        Top 20 Paradas - MOP
+    </div>
+    
+    
+    <div style="position: fixed; bottom: 30px; left: 10px; width: 200px; height: 60px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 14px; padding: 10px;">
+        <b>Prioridad de refugio</b><br>
+        <span style="color: red;">&#9679;</span> Demanda muy alta<br>
+        <span style="color: orange;">&#9679;</span> Demanda alta
+    </div>
+    
+    
+            <div class="folium-map" id="map_973c4bf56bba9a8276353c8e504e6952" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_973c4bf56bba9a8276353c8e504e6952 = L.map(
+                "map_973c4bf56bba9a8276353c8e504e6952",
+                {
+                    center: [-29.96611605224, -71.32419599197999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_973c4bf56bba9a8276353c8e504e6952);
+
+            
+
+        
+    
+            var tile_layer_15738b1e4cb9532aa2a06098694b9cc6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_15738b1e4cb9532aa2a06098694b9cc6.addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var marker_062d81b5e85faabe76e5a417188f09bd = L.marker(
+                [-29.9668322531, -71.3265991964],
+                {
+}
+            ).addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var icon_e95ee1a9c78ea17d97496aa918fd11b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_992ba6b34ac07a79d23a0955b6563e91 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a25da21c380644205d443e6676972de = $(`<div id="html_7a25da21c380644205d443e6676972de" style="width: 100.0%; height: 100.0%;"><b>47-5-OP</b><br>Panamericana Norte  esq.  Diez de Julio<br>Demanda: 1,084<br>Eventos: 771</div>`)[0];
+                popup_992ba6b34ac07a79d23a0955b6563e91.setContent(html_7a25da21c380644205d443e6676972de);
+            
+        
+
+        marker_062d81b5e85faabe76e5a417188f09bd.bindPopup(popup_992ba6b34ac07a79d23a0955b6563e91)
+        ;
+
+        
+    
+    
+            marker_062d81b5e85faabe76e5a417188f09bd.bindTooltip(
+                `<div>
+                     47-5-OP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_062d81b5e85faabe76e5a417188f09bd.setIcon(icon_e95ee1a9c78ea17d97496aa918fd11b1);
+            
+    
+            var marker_83f58d25f876f1936e9aff6d139acd06 = L.marker(
+                [-29.9654127326, -71.3294595126],
+                {
+}
+            ).addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var icon_2edbb182b01de16afc1eded812d68da1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61cfbf97f3f8c6511b75e0f003b4b3a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_065316a15d3f19d19f6f33809ef7ab55 = $(`<div id="html_065316a15d3f19d19f6f33809ef7ab55" style="width: 100.0%; height: 100.0%;"><b>47-10-OP</b><br>Panamericana Norte  esq.  18 de Septiembre<br>Demanda: 770<br>Eventos: 582</div>`)[0];
+                popup_61cfbf97f3f8c6511b75e0f003b4b3a6.setContent(html_065316a15d3f19d19f6f33809ef7ab55);
+            
+        
+
+        marker_83f58d25f876f1936e9aff6d139acd06.bindPopup(popup_61cfbf97f3f8c6511b75e0f003b4b3a6)
+        ;
+
+        
+    
+    
+            marker_83f58d25f876f1936e9aff6d139acd06.bindTooltip(
+                `<div>
+                     47-10-OP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_83f58d25f876f1936e9aff6d139acd06.setIcon(icon_2edbb182b01de16afc1eded812d68da1);
+            
+    
+            var marker_61fcc4b87c07840a9336ec5badd75761 = L.marker(
+                [-29.96581894, -71.321357105],
+                {
+}
+            ).addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var icon_53edaf39a9ddf2db0ac47e2bf5977e3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f43bf1d31db816eb044689135ba6542 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff2f30698dda244669e5f4895d4915f9 = $(`<div id="html_ff2f30698dda244669e5f4895d4915f9" style="width: 100.0%; height: 100.0%;"><b>47-0-OP</b><br>Panamericana Norte  esq.  Cinco de Abril<br>Demanda: 483<br>Eventos: 426</div>`)[0];
+                popup_6f43bf1d31db816eb044689135ba6542.setContent(html_ff2f30698dda244669e5f4895d4915f9);
+            
+        
+
+        marker_61fcc4b87c07840a9336ec5badd75761.bindPopup(popup_6f43bf1d31db816eb044689135ba6542)
+        ;
+
+        
+    
+    
+            marker_61fcc4b87c07840a9336ec5badd75761.bindTooltip(
+                `<div>
+                     47-0-OP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61fcc4b87c07840a9336ec5badd75761.setIcon(icon_53edaf39a9ddf2db0ac47e2bf5977e3c);
+            
+    
+            var marker_1bae9618e5de44196539d1ab4bab4bae = L.marker(
+                [-29.9664819555, -71.32230502],
+                {
+}
+            ).addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var icon_231aabb0d8ff0ff77bd4f42fe3d19591 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19a382d48edc7f6227052520c61b0290 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3ca78b9875f93888da3d530c2bbae95 = $(`<div id="html_d3ca78b9875f93888da3d530c2bbae95" style="width: 100.0%; height: 100.0%;"><b>47-0-PO</b><br>Panamericana Norte  esq.  Acceso Caletera Sur<br>Demanda: 213<br>Eventos: 149</div>`)[0];
+                popup_19a382d48edc7f6227052520c61b0290.setContent(html_d3ca78b9875f93888da3d530c2bbae95);
+            
+        
+
+        marker_1bae9618e5de44196539d1ab4bab4bae.bindPopup(popup_19a382d48edc7f6227052520c61b0290)
+        ;
+
+        
+    
+    
+            marker_1bae9618e5de44196539d1ab4bab4bae.bindTooltip(
+                `<div>
+                     47-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1bae9618e5de44196539d1ab4bab4bae.setIcon(icon_231aabb0d8ff0ff77bd4f42fe3d19591);
+            
+    
+            var marker_58cf87be2f7bb8a71451dadaf35c02ae = L.marker(
+                [-29.96603438, -71.3212591259],
+                {
+}
+            ).addTo(map_973c4bf56bba9a8276353c8e504e6952);
+        
+    
+            var icon_556494a070d3bea5cb89ff197c78636c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "circle",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d408e7d7953e9d3eb7d1ad78c1b0be0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0d54bc5ff013278d457a94a5678a798 = $(`<div id="html_a0d54bc5ff013278d457a94a5678a798" style="width: 100.0%; height: 100.0%;"><b>47-5-PO</b><br>Panamericana Norte  esq.  Acceso a Suecia<br>Demanda: 175<br>Eventos: 157</div>`)[0];
+                popup_d408e7d7953e9d3eb7d1ad78c1b0be0e.setContent(html_a0d54bc5ff013278d457a94a5678a798);
+            
+        
+
+        marker_58cf87be2f7bb8a71451dadaf35c02ae.bindPopup(popup_d408e7d7953e9d3eb7d1ad78c1b0be0e)
+        ;
+
+        
+    
+    
+            marker_58cf87be2f7bb8a71451dadaf35c02ae.bindTooltip(
+                `<div>
+                     47-5-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58cf87be2f7bb8a71451dadaf35c02ae.setIcon(icon_556494a070d3bea5cb89ff197c78636c);
+            
+</script>
+</html>
