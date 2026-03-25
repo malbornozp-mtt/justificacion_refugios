@@ -1,0 +1,545 @@
+﻿ID_PARADA,CODIGO_PARADA,NOMBRE_PARADA,COMUNA_PARADA,SERVICIO,SENTIDO_LABEL,SUBE,BAJA,DEMANDA
+0.0,60-0-OP,Alberto Hurtado Cruchaga esq. El Sauce,Coquimbo,E01,I,34,55,89
+0.0,60-0-OP,Alberto Hurtado Cruchaga esq. El Sauce,Coquimbo,E01,R,1492,553,2045
+0.0,60-0-OP,Alberto Hurtado Cruchaga esq. El Sauce,Coquimbo,E02,I,0,0,0
+0.0,60-0-OP,Alberto Hurtado Cruchaga esq. El Sauce,Coquimbo,E02,R,1001,223,1224
+1.0,60-0-PO,Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes,Coquimbo,E01,I,100,306,406
+1.0,60-0-PO,Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes,Coquimbo,E01,R,206,2910,3116
+1.0,60-0-PO,Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes,Coquimbo,E02,I,0,0,0
+1.0,60-0-PO,Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes,Coquimbo,E02,R,137,2087,2224
+2.0,1-0-OP,Alejandro Flores  esq.  Rio Campanario,La Serena,E01,I,8,0,8
+2.0,1-0-OP,Alejandro Flores  esq.  Rio Campanario,La Serena,E02,I,900,126,1026
+3.0,2-0-NS,Anibal Pinto  esq.  Barros Borgono,Coquimbo,E02,R,145,172,317
+4.0,2-5-NS,Anibal Pinto  esq.  Diego Portales,Coquimbo,E02,R,1419,537,1956
+5.0,3-0-NS,Arturo Alessandri  esq.  Tierra del Fuego,Coquimbo,E01,I,1,1,2
+5.0,3-0-NS,Arturo Alessandri  esq.  Tierra del Fuego,Coquimbo,E01,R,506,1022,1528
+5.0,3-0-NS,Arturo Alessandri  esq.  Tierra del Fuego,Coquimbo,E02,R,3,0,3
+6.0,3-0-SN,Arturo Alessandri  esq. Nueva,Coquimbo,E01,R,128,114,242
+6.0,3-0-SN,Arturo Alessandri  esq. Nueva,Coquimbo,E02,R,0,1,1
+7.0,3-5-SN,Arturo Alessandri  esq.  Manuel Jesus Rivera,Coquimbo,E01,I,0,27,27
+7.0,3-5-SN,Arturo Alessandri  esq.  Manuel Jesus Rivera,Coquimbo,E01,R,670,396,1066
+7.0,3-5-SN,Arturo Alessandri  esq.  Manuel Jesus Rivera,Coquimbo,E02,R,1,1,2
+8.0,4-0-NS,Avenida Los Lagos  esq.  Avenida Beltran Amenabar,Coquimbo,E01,I,55,46,101
+8.0,4-0-NS,Avenida Los Lagos  esq.  Avenida Beltran Amenabar,Coquimbo,E01,R,17,25,42
+8.0,4-0-NS,Avenida Los Lagos  esq.  Avenida Beltran Amenabar,Coquimbo,E02,I,749,588,1337
+8.0,4-0-NS,Avenida Los Lagos  esq.  Avenida Beltran Amenabar,Coquimbo,E02,R,65,86,151
+9.0,4-15-PO,Avenida Los Lagos  esq.  Presidente Jose Manuel Balmaceda,Coquimbo,E01,I,104,161,265
+9.0,4-15-PO,Avenida Los Lagos  esq.  Presidente Jose Manuel Balmaceda,Coquimbo,E01,R,41,49,90
+9.0,4-15-PO,Avenida Los Lagos  esq.  Presidente Jose Manuel Balmaceda,Coquimbo,E02,I,1163,1529,2692
+9.0,4-15-PO,Avenida Los Lagos  esq.  Presidente Jose Manuel Balmaceda,Coquimbo,E02,R,1,5,6
+10.0,5-0-SN,Bandera  esq.  La Reconquista,La Serena,E01,I,877,3133,4010
+10.0,5-0-SN,Bandera  esq.  La Reconquista,La Serena,E01,R,0,1,1
+10.0,5-0-SN,Bandera  esq.  La Reconquista,La Serena,E02,I,422,3206,3628
+11.0,6-0-SN,Benavente  esq.  Franscisco de Aguirre,La Serena,E01,I,787,981,1768
+11.0,6-0-SN,Benavente  esq.  Franscisco de Aguirre,La Serena,E02,I,520,902,1422
+12.0,6-5-SN,Benavente  esq.  Amunategui,La Serena,E01,I,1714,3078,4792
+12.0,6-5-SN,Benavente  esq.  Amunategui,La Serena,E01,R,0,10,10
+12.0,6-5-SN,Benavente  esq.  Amunategui,La Serena,E02,I,1168,2368,3536
+13.0,7-0-NS,Brillador  esq. Mercedes Marin del Solar,La Serena,E01,I,4,0,4
+13.0,7-0-NS,Brillador  esq. Mercedes Marin del Solar,La Serena,E02,I,39,6,45
+14.0,7-5-NS,Brillador  esq.  Samuel Roman Rojas,La Serena,E01,I,3,0,3
+14.0,7-5-NS,Brillador  esq.  Samuel Roman Rojas,La Serena,E02,I,1544,191,1735
+15.0,8-0-PO,Camilo Henriquez  esq.  Carrera,Coquimbo,E01,R,0,0,0
+15.0,8-0-PO,Camilo Henriquez  esq.  Carrera,Coquimbo,E02,I,1,1,2
+15.0,8-0-PO,Camilo Henriquez  esq.  Carrera,Coquimbo,E02,R,152,87,239
+16.0,9-0-NS,Carlos Munoz Pizarro  esq.  Portugal Sur,Coquimbo,E01,I,2,3,5
+16.0,9-0-NS,Carlos Munoz Pizarro  esq.  Portugal Sur,Coquimbo,E01,R,390,600,990
+16.0,9-0-NS,Carlos Munoz Pizarro  esq.  Portugal Sur,Coquimbo,E02,I,0,1,1
+16.0,9-0-NS,Carlos Munoz Pizarro  esq.  Portugal Sur,Coquimbo,E02,R,5,0,5
+17.0,10-0-SN,Cienfuegos  esq.  Domeyko,La Serena,E01,I,3738,3596,7334
+17.0,10-0-SN,Cienfuegos  esq.  Domeyko,La Serena,E02,I,2446,3405,5851
+18.0,10-15-SN,Cienfuegos  esq.  Diego de Almagro,La Serena,E01,I,340,353,693
+18.0,10-15-SN,Cienfuegos  esq.  Diego de Almagro,La Serena,E02,I,214,368,582
+19.0,10-5-SN,Cienfuegos  esq.  Cantournet,La Serena,E01,I,8850,5401,14251
+19.0,10-5-SN,Cienfuegos  esq.  Cantournet,La Serena,E02,I,5172,5304,10476
+19.0,10-5-SN,Cienfuegos  esq.  Cantournet,La Serena,E02,R,0,11,11
+20.0,11-0-SN,Circunvalacion Presidente Salvador Allende  esq.  Tulipanes,Coquimbo,E01,I,25,23,48
+20.0,11-0-SN,Circunvalacion Presidente Salvador Allende  esq.  Tulipanes,Coquimbo,E01,R,168,158,326
+20.0,11-0-SN,Circunvalacion Presidente Salvador Allende  esq.  Tulipanes,Coquimbo,E02,R,0,0,0
+21.0,12-0-PO,Domeyko  esq.  Recoleta,Coquimbo,E02,I,19,33,52
+21.0,12-0-PO,Domeyko  esq.  Recoleta,Coquimbo,E02,R,29,53,82
+22.0,12-5-PO,Domeyko  esq.  San Miguel,Coquimbo,E02,I,57,83,140
+22.0,12-5-PO,Domeyko  esq.  San Miguel,Coquimbo,E02,R,38,67,105
+23.0,13-0-OP,El Islon  esq.  Ecuador,La Serena,E01,I,2017,336,2353
+23.0,13-0-OP,El Islon  esq.  Ecuador,La Serena,E02,I,7,0,7
+24.0,13-15-NS,El Islon  esq.  Costanera,La Serena,E01,I,2344,414,2758
+24.0,13-15-NS,El Islon  esq.  Costanera,La Serena,E02,I,2180,364,2544
+24.0,13-15-NS,El Islon  esq.  Costanera,La Serena,E02,R,1,7,8
+25.0,14-0-SN,El Libertador  esq.  El Islon,La Serena,E01,I,434,1067,1501
+25.0,14-0-SN,El Libertador  esq.  El Islon,La Serena,E01,R,4,11,15
+25.0,14-0-SN,El Libertador  esq.  El Islon,La Serena,E02,I,153,967,1120
+25.0,14-0-SN,El Libertador  esq.  El Islon,La Serena,E02,R,18,34,52
+26.0,14-10-SN,El Libertador  esq.  Avenida Monte Grande,La Serena,E01,I,158,1935,2093
+26.0,14-10-SN,El Libertador  esq.  Avenida Monte Grande,La Serena,E02,I,103,1861,1964
+27.0,14-5-SN,El Libertador  esq.  Balada,La Serena,E01,I,171,2276,2447
+27.0,14-5-SN,El Libertador  esq.  Balada,La Serena,E02,I,102,2356,2458
+28.0,15-0-NS,El Santo  esq.  Vicente Huidobro,La Serena,E01,I,6000,2921,8921
+28.0,15-0-NS,El Santo  esq.  Vicente Huidobro,La Serena,E01,R,15,32,47
+28.0,15-0-NS,El Santo  esq.  Vicente Huidobro,La Serena,E02,I,3547,3134,6681
+28.0,15-0-NS,El Santo  esq.  Vicente Huidobro,La Serena,E02,R,35,88,123
+29.0,15-5-NS,El Santo  esq.  Avenida Amunategui,La Serena,E01,I,773,426,1199
+29.0,15-5-NS,El Santo  esq.  Avenida Amunategui,La Serena,E02,I,439,604,1043
+29.0,15-5-NS,El Santo  esq.  Avenida Amunategui,La Serena,E02,R,6,6,12
+30.0,16-0-NS,El Sauce  esq. Ramón Rodríguez,Coquimbo,E01,I,4,3,7
+30.0,16-0-NS,El Sauce  esq. Ramón Rodríguez,Coquimbo,E01,R,197,2348,2545
+30.0,16-0-NS,El Sauce  esq. Ramón Rodríguez,Coquimbo,E02,I,3,1,4
+30.0,16-0-NS,El Sauce  esq. Ramón Rodríguez,Coquimbo,E02,R,174,1382,1556
+31.0,16-0-SN,El Sauce  esq. Pasaje Las Higueras,Coquimbo,E01,I,1,0,1
+31.0,16-0-SN,El Sauce  esq. Pasaje Las Higueras,Coquimbo,E01,R,31,184,215
+31.0,16-0-SN,El Sauce  esq. Pasaje Las Higueras,Coquimbo,E02,I,1,14,15
+31.0,16-0-SN,El Sauce  esq. Pasaje Las Higueras,Coquimbo,E02,R,40,154,194
+32.0,16-5-NS,El Sauce  esq. Francisco Sánchez,Coquimbo,E01,I,0,2,2
+32.0,16-5-NS,El Sauce  esq. Francisco Sánchez,Coquimbo,E01,R,611,1605,2216
+32.0,16-5-NS,El Sauce  esq. Francisco Sánchez,Coquimbo,E02,I,0,2,2
+32.0,16-5-NS,El Sauce  esq. Francisco Sánchez,Coquimbo,E02,R,540,1362,1902
+33.0,16-5-SN,El Sauce  esq. Marcos Rojas,Coquimbo,E01,R,719,179,898
+33.0,16-5-SN,El Sauce  esq. Marcos Rojas,Coquimbo,E02,I,28,84,112
+33.0,16-5-SN,El Sauce  esq. Marcos Rojas,Coquimbo,E02,R,514,129,643
+34.0,18-0-SN,Francisco Antonio Varela  esq.  Diego Portales,Coquimbo,E01,I,28,40,68
+34.0,18-0-SN,Francisco Antonio Varela  esq.  Diego Portales,Coquimbo,E01,R,7,18,25
+34.0,18-0-SN,Francisco Antonio Varela  esq.  Diego Portales,Coquimbo,E02,I,6,6,12
+34.0,18-0-SN,Francisco Antonio Varela  esq.  Diego Portales,Coquimbo,E02,R,2759,6725,9484
+35.0,18-10-SN,Francisco Antonio Varela  esq.  Artesanos,Coquimbo,E02,R,293,991,1284
+36.0,18-15-SN,Francisco Antonio Varela  esq.  Las Heras,Coquimbo,E02,R,17,64,81
+37.0,18-5-SN,Francisco Antonio Varela  esq.  Pasaje Garriga,Coquimbo,E02,I,0,0,0
+37.0,18-5-SN,Francisco Antonio Varela  esq.  Pasaje Garriga,Coquimbo,E02,R,347,723,1070
+38.0,19-0-NS,Francisco Cabello  esq.  Las Vertientes,Coquimbo,E01,I,2,6,8
+38.0,19-0-NS,Francisco Cabello  esq.  Las Vertientes,Coquimbo,E01,R,313,2229,2542
+38.0,19-0-NS,Francisco Cabello  esq.  Las Vertientes,Coquimbo,E02,R,0,5,5
+39.0,20-0-PO,Francisco de Aguirre  esq.  Isabel Riquelme,La Serena,E01,I,2287,933,3220
+39.0,20-0-PO,Francisco de Aguirre  esq.  Isabel Riquelme,La Serena,E01,R,8,30,38
+39.0,20-0-PO,Francisco de Aguirre  esq.  Isabel Riquelme,La Serena,E02,I,1170,1320,2490
+39.0,20-0-PO,Francisco de Aguirre  esq.  Isabel Riquelme,La Serena,E02,R,0,5,5
+40.0,21-0-PO,Guacolda  esq.  Manuel Rodriguez,Coquimbo,E01,R,1,2,3
+40.0,21-0-PO,Guacolda  esq.  Manuel Rodriguez,Coquimbo,E02,I,84,160,244
+40.0,21-0-PO,Guacolda  esq.  Manuel Rodriguez,Coquimbo,E02,R,2594,4875,7469
+41.0,22-0-PO,Huanhuali  esq.  Estadio,La Serena,E01,I,342,211,553
+41.0,22-0-PO,Huanhuali  esq.  Estadio,La Serena,E01,R,5,0,5
+41.0,22-0-PO,Huanhuali  esq.  Estadio,La Serena,E02,I,218,260,478
+41.0,22-0-PO,Huanhuali  esq.  Estadio,La Serena,E02,R,30,72,102
+42.0,22-5-PO,Huanhuali  esq.  Balmaceda,La Serena,E01,I,160,301,461
+42.0,22-5-PO,Huanhuali  esq.  Balmaceda,La Serena,E01,R,1,14,15
+42.0,22-5-PO,Huanhuali  esq.  Balmaceda,La Serena,E02,I,407,578,985
+42.0,22-5-PO,Huanhuali  esq.  Balmaceda,La Serena,E02,R,176,266,442
+43.0,23-0-PO,John F. Kennedy esq. Videla,Coquimbo,E01,R,1,1,2
+43.0,23-0-PO,John F. Kennedy esq. Videla,Coquimbo,E02,I,1,1,2
+43.0,23-0-PO,John F. Kennedy esq. Videla,Coquimbo,E02,R,8,7,15
+44.0,24-0-PO,Jorge Pena Hen  esq.  Escultura Maria Fuentealba,La Serena,E01,I,1,1,2
+44.0,24-0-PO,Jorge Pena Hen  esq.  Escultura Maria Fuentealba,La Serena,E02,I,805,90,895
+45.0,25-0-OP,Gaspar Marin  esq.  Monjitas,La Serena,E01,I,0,3,3
+45.0,25-0-OP,Gaspar Marin  esq.  Monjitas,La Serena,E02,I,108,842,950
+46.0,25-10-PO,Gaspar Marin  esq.  Nicaragua,La Serena,E01,I,528,1988,2516
+46.0,25-10-PO,Gaspar Marin  esq.  Nicaragua,La Serena,E02,I,0,2,2
+47.0,25-15-PO,Gaspar Marin  esq.  Colombia,La Serena,E01,I,423,2807,3230
+47.0,25-15-PO,Gaspar Marin  esq.  Colombia,La Serena,E02,I,0,2,2
+48.0,25-20-PO,Gaspar Marin  3685,La Serena,E01,I,806,2921,3727
+48.0,25-20-PO,Gaspar Marin  3685,La Serena,E02,I,1,1,2
+49.0,25-25-PO,Gaspar Marin  esq.  Roberto Ochoa,La Serena,E01,I,1145,5467,6612
+49.0,25-25-PO,Gaspar Marin  esq.  Roberto Ochoa,La Serena,E02,I,2,4,6
+50.0,25-5-PO,Gaspar Marin  esq.  La Conquista,La Serena,E01,I,10,48,58
+50.0,25-5-PO,Gaspar Marin  esq.  La Conquista,La Serena,E02,I,1032,170,1202
+50.0,25-5-PO,Gaspar Marin  esq.  La Conquista,La Serena,E02,R,7,34,41
+51.0,26-0-OP,Jose Joaquin Perez  esq.  Frutillar,Coquimbo,E01,I,10,49,59
+51.0,26-0-OP,Jose Joaquin Perez  esq.  Frutillar,Coquimbo,E01,R,13,30,43
+51.0,26-0-OP,Jose Joaquin Perez  esq.  Frutillar,Coquimbo,E02,I,20,38,58
+51.0,26-0-OP,Jose Joaquin Perez  esq.  Frutillar,Coquimbo,E02,R,16,32,48
+52.0,26-0-PO,Jose Joaquin Perez  esq.  Santa Margarita,Coquimbo,E01,I,69,82,151
+52.0,26-0-PO,Jose Joaquin Perez  esq.  Santa Margarita,Coquimbo,E01,R,138,126,264
+52.0,26-0-PO,Jose Joaquin Perez  esq.  Santa Margarita,Coquimbo,E02,I,267,456,723
+52.0,26-0-PO,Jose Joaquin Perez  esq.  Santa Margarita,Coquimbo,E02,R,996,1510,2506
+53.0,26-10-OP,Jose Joaquin Perez  esq.  Rio Salado,Coquimbo,E01,I,62,59,121
+53.0,26-10-OP,Jose Joaquin Perez  esq.  Rio Salado,Coquimbo,E01,R,133,156,289
+53.0,26-10-OP,Jose Joaquin Perez  esq.  Rio Salado,Coquimbo,E02,I,35,25,60
+53.0,26-10-OP,Jose Joaquin Perez  esq.  Rio Salado,Coquimbo,E02,R,331,310,641
+54.0,26-10-PO,Jose Joaquin Perez  esq.  Rio Rapel,Coquimbo,E01,I,185,178,363
+54.0,26-10-PO,Jose Joaquin Perez  esq.  Rio Rapel,Coquimbo,E01,R,588,496,1084
+54.0,26-10-PO,Jose Joaquin Perez  esq.  Rio Rapel,Coquimbo,E02,I,382,721,1103
+54.0,26-10-PO,Jose Joaquin Perez  esq.  Rio Rapel,Coquimbo,E02,R,554,626,1180
+55.0,26-15-OP,Jose Joaquin Perez  esq. Rio Hurtado,Coquimbo,E01,I,11,27,38
+55.0,26-15-OP,Jose Joaquin Perez  esq. Rio Hurtado,Coquimbo,E01,R,57,89,146
+55.0,26-15-OP,Jose Joaquin Perez  esq. Rio Hurtado,Coquimbo,E02,I,49,70,119
+55.0,26-15-OP,Jose Joaquin Perez  esq. Rio Hurtado,Coquimbo,E02,R,36,95,131
+56.0,26-15-PO,Jose Joaquin Perez  esq.  El Amanecer PO,Coquimbo,E01,I,24,59,83
+56.0,26-15-PO,Jose Joaquin Perez  esq.  El Amanecer PO,Coquimbo,E01,R,119,112,231
+56.0,26-15-PO,Jose Joaquin Perez  esq.  El Amanecer PO,Coquimbo,E02,I,590,827,1417
+56.0,26-15-PO,Jose Joaquin Perez  esq.  El Amanecer PO,Coquimbo,E02,R,61,136,197
+57.0,26-20-OP,Jose Joaquin Perez  esq.  Antonio Puga,Coquimbo,E01,I,18,40,58
+57.0,26-20-OP,Jose Joaquin Perez  esq.  Antonio Puga,Coquimbo,E02,I,8,20,28
+57.0,26-20-OP,Jose Joaquin Perez  esq.  Antonio Puga,Coquimbo,E02,R,57,84,141
+58.0,26-20-PO,Jose Joaquin Perez  esq.  Juan Arenas Martinez,Coquimbo,E01,I,41,152,193
+58.0,26-20-PO,Jose Joaquin Perez  esq.  Juan Arenas Martinez,Coquimbo,E01,R,139,235,374
+58.0,26-20-PO,Jose Joaquin Perez  esq.  Juan Arenas Martinez,Coquimbo,E02,I,360,353,713
+58.0,26-20-PO,Jose Joaquin Perez  esq.  Juan Arenas Martinez,Coquimbo,E02,R,128,289,417
+59.0,26-5-OP,Jose Joaquin Perez  esq.  El Amanecer OP,Coquimbo,E01,I,115,229,344
+59.0,26-5-OP,Jose Joaquin Perez  esq.  El Amanecer OP,Coquimbo,E01,R,331,383,714
+59.0,26-5-OP,Jose Joaquin Perez  esq.  El Amanecer OP,Coquimbo,E02,I,121,202,323
+59.0,26-5-OP,Jose Joaquin Perez  esq.  El Amanecer OP,Coquimbo,E02,R,324,642,966
+60.0,26-5-PO,Jose Joaquin Perez  esq.  Geronimo Mendez Arancibia PO,Coquimbo,E01,I,5,0,5
+60.0,26-5-PO,Jose Joaquin Perez  esq.  Geronimo Mendez Arancibia PO,Coquimbo,E01,R,31,28,59
+60.0,26-5-PO,Jose Joaquin Perez  esq.  Geronimo Mendez Arancibia PO,Coquimbo,E02,I,117,207,324
+60.0,26-5-PO,Jose Joaquin Perez  esq.  Geronimo Mendez Arancibia PO,Coquimbo,E02,R,154,371,525
+61.0,27-0-NS,Ruta 5 esq.  Eduardo de la Barra,La Serena,E01,I,1846,1773,3619
+61.0,27-0-NS,Ruta 5 esq.  Eduardo de la Barra,La Serena,E01,R,19,56,75
+61.0,27-0-NS,Ruta 5 esq.  Eduardo de la Barra,La Serena,E02,I,1363,2911,4274
+62.0,28-0-OP,La Cantera  esq.  Calle Vega Sur,Coquimbo,E01,I,4,7,11
+62.0,28-0-OP,La Cantera  esq.  Calle Vega Sur,Coquimbo,E01,R,4,2,6
+62.0,28-0-OP,La Cantera  esq.  Calle Vega Sur,Coquimbo,E02,I,9,7,16
+62.0,28-0-OP,La Cantera  esq.  Calle Vega Sur,Coquimbo,E02,R,17,49,66
+63.0,29-0-PO,La Cantera Sur  esq.  Rio Lauca,Coquimbo,E01,I,0,2,2
+63.0,29-0-PO,La Cantera Sur  esq.  Rio Lauca,Coquimbo,E01,R,5,13,18
+63.0,29-0-PO,La Cantera Sur  esq.  Rio Lauca,Coquimbo,E02,I,2,3,5
+63.0,29-0-PO,La Cantera Sur  esq.  Rio Lauca,Coquimbo,E02,R,3,13,16
+64.0,30-0-NS,La Conquista  esq.  Alejandro Flores,La Serena,E01,I,225,2564,2789
+64.0,30-0-NS,La Conquista  esq.  Alejandro Flores,La Serena,E02,I,1239,3203,4442
+64.0,30-0-NS,La Conquista  esq.  Alejandro Flores,La Serena,E02,R,46,76,122
+65.0,30-0-SN,La Conquista  esq.  Gregorio Argomedo,La Serena,E01,I,59,790,849
+65.0,30-0-SN,La Conquista  esq.  Gregorio Argomedo,La Serena,E02,I,79,751,830
+66.0,31-0-NS,La Reconquista  esq.  Adela Garcia,La Serena,E01,I,1,0,1
+66.0,31-0-NS,La Reconquista  esq.  Adela Garcia,La Serena,E02,I,1355,222,1577
+66.0,31-0-NS,La Reconquista  esq.  Adela Garcia,La Serena,E02,R,46,49,95
+67.0,32-0-OP,Las Heras  esq.  Santiago de Aldunate,Coquimbo,E02,I,1,0,1
+67.0,32-0-OP,Las Heras  esq.  Santiago de Aldunate,Coquimbo,E02,R,209,586,795
+68.0,33-0-PO,Las Parcelas  esq.  Los Jardines,Coquimbo,E01,I,1,2,3
+68.0,33-0-PO,Las Parcelas  esq.  Los Jardines,Coquimbo,E01,R,10,8,18
+68.0,33-0-PO,Las Parcelas  esq.  Los Jardines,Coquimbo,E02,I,170,111,281
+68.0,33-0-PO,Las Parcelas  esq.  Los Jardines,Coquimbo,E02,R,0,2,2
+69.0,34-0-NS,Las Pircas  esq.  El Portezuelo,La Serena,E01,I,9546,9278,18824
+69.0,34-0-NS,Las Pircas  esq.  El Portezuelo,La Serena,E01,R,110,278,388
+69.0,34-0-NS,Las Pircas  esq.  El Portezuelo,La Serena,E02,I,44,8,52
+70.0,35-0-PO,Las Vertientes  esq.  Francisco Cabello,Coquimbo,E01,R,576,233,809
+70.0,35-0-PO,Las Vertientes  esq.  Francisco Cabello,Coquimbo,E02,R,5,0,5
+71.0,36-0-NS,Los Clarines  esq.  Los Claveles,Coquimbo,E01,I,1,4,5
+71.0,36-0-NS,Los Clarines  esq.  Los Claveles,Coquimbo,E01,R,713,2824,3537
+72.0,36-10-NS,Los Clarines  esq.  Fernando Carreno,Coquimbo,E01,I,0,0,0
+72.0,36-10-NS,Los Clarines  esq.  Fernando Carreno,Coquimbo,E01,R,986,3566,4552
+72.0,36-10-NS,Los Clarines  esq.  Fernando Carreno,Coquimbo,E02,I,1,2,3
+72.0,36-10-NS,Los Clarines  esq.  Fernando Carreno,Coquimbo,E02,R,2,1,3
+73.0,36-10-SN,Los Clarines  esq.  Dalivor Zuvic Caglevic,Coquimbo,E01,I,0,1,1
+73.0,36-10-SN,Los Clarines  esq.  Dalivor Zuvic Caglevic,Coquimbo,E01,R,625,296,921
+73.0,36-10-SN,Los Clarines  esq.  Dalivor Zuvic Caglevic,Coquimbo,E02,R,16,3,19
+74.0,36-15-NS,Los Clarines  esq.  Carlos Fuentes NS,Coquimbo,E01,I,12,31,43
+74.0,36-15-NS,Los Clarines  esq.  Carlos Fuentes NS,Coquimbo,E01,R,503,2199,2702
+75.0,36-15-SN,Los Clarines  esq.  Carlos Fuentes SN,Coquimbo,E01,I,2,2,4
+75.0,36-15-SN,Los Clarines  esq.  Carlos Fuentes SN,Coquimbo,E01,R,630,1032,1662
+75.0,36-15-SN,Los Clarines  esq.  Carlos Fuentes SN,Coquimbo,E02,R,20,4,24
+76.0,36-20-NS,Los Clarines  esq.  Victor Taborga Vega,Coquimbo,E01,R,10,57,67
+76.0,36-20-NS,Los Clarines  esq.  Victor Taborga Vega,Coquimbo,E02,R,0,1,1
+77.0,36-20-SN,Los Clarines  esq.  Aquiles Cabeza,Coquimbo,E01,R,739,471,1210
+77.0,36-20-SN,Los Clarines  esq.  Aquiles Cabeza,Coquimbo,E02,R,16,6,22
+78.0,36-25-NS,Los Clarines  esq.  Glorias Navales,Coquimbo,E01,I,0,2,2
+78.0,36-25-NS,Los Clarines  esq.  Glorias Navales,Coquimbo,E01,R,579,4025,4604
+78.0,36-25-NS,Los Clarines  esq.  Glorias Navales,Coquimbo,E02,R,0,0,0
+79.0,36-5-NS,Los Clarines  esq.  Los Pimientos,Coquimbo,E01,R,372,2981,3353
+79.0,36-5-NS,Los Clarines  esq.  Los Pimientos,Coquimbo,E02,I,0,1,1
+80.0,36-5-SN,Los Clarines  esq.  Aureliano Sanchez,Coquimbo,E01,I,1,2,3
+80.0,36-5-SN,Los Clarines  esq.  Aureliano Sanchez,Coquimbo,E01,R,1263,270,1533
+80.0,36-5-SN,Los Clarines  esq.  Aureliano Sanchez,Coquimbo,E02,I,0,0,0
+80.0,36-5-SN,Los Clarines  esq.  Aureliano Sanchez,Coquimbo,E02,R,9,4,13
+81.0,37-0-SN,Los Copihues  esq.  Los Nardos,Coquimbo,E01,I,1,24,25
+81.0,37-0-SN,Los Copihues  esq.  Los Nardos,Coquimbo,E01,R,508,67,575
+81.0,37-0-SN,Los Copihues  esq.  Los Nardos,Coquimbo,E02,I,1,0,1
+81.0,37-0-SN,Los Copihues  esq.  Los Nardos,Coquimbo,E02,R,5,0,5
+82.0,37-10-SN,Los Copihues  esq.  Los Alelies,Coquimbo,E01,I,0,0,0
+82.0,37-10-SN,Los Copihues  esq.  Los Alelies,Coquimbo,E01,R,470,159,629
+82.0,37-10-SN,Los Copihues  esq.  Los Alelies,Coquimbo,E02,R,4,7,11
+83.0,37-5-SN,Los Copihues  esq.  Las Margaritas,Coquimbo,E01,R,230,111,341
+83.0,37-5-SN,Los Copihues  esq.  Las Margaritas,Coquimbo,E02,R,3,1,4
+84.0,38-0-NS,Los Diamelos  esq.  Las Lilas,Coquimbo,E01,I,2,2,4
+84.0,38-0-NS,Los Diamelos  esq.  Las Lilas,Coquimbo,E01,R,962,1899,2861
+85.0,4-10-PO,Avenida Los Lagos  esq.  Lago Galletue,Coquimbo,E01,I,121,140,261
+85.0,4-10-PO,Avenida Los Lagos  esq.  Lago Galletue,Coquimbo,E01,R,17,42,59
+85.0,4-10-PO,Avenida Los Lagos  esq.  Lago Galletue,Coquimbo,E02,I,991,1106,2097
+85.0,4-10-PO,Avenida Los Lagos  esq.  Lago Galletue,Coquimbo,E02,R,0,0,0
+86.0,4-5-PO,Avenida Los Lagos  esq.  Colonia San Ramon,Coquimbo,E01,I,19,49,68
+86.0,4-5-PO,Avenida Los Lagos  esq.  Colonia San Ramon,Coquimbo,E01,R,4,4,8
+86.0,4-5-PO,Avenida Los Lagos  esq.  Colonia San Ramon,Coquimbo,E02,I,217,188,405
+87.0,40-0-PO,Los Morros  esq.  Las Acequias,La Serena,E01,I,251,3895,4146
+87.0,40-0-PO,Los Morros  esq.  Las Acequias,La Serena,E02,I,1,4,5
+88.0,40-5-PO,Los Morros  esq.  Los Arenales,La Serena,E01,I,1181,3046,4227
+88.0,40-5-PO,Los Morros  esq.  Los Arenales,La Serena,E01,R,170,522,692
+88.0,40-5-PO,Los Morros  esq.  Los Arenales,La Serena,E02,I,2,0,2
+89.0,42-0-OP,Manuel Jesus Rivera  esq.  Carlos Barrios,Coquimbo,E01,I,38,36,74
+89.0,42-0-OP,Manuel Jesus Rivera  esq.  Carlos Barrios,Coquimbo,E01,R,220,565,785
+90.0,42-0-PO,Manuel Jesus Rivera  esq.  Maestranza PO,Coquimbo,E01,I,4,9,13
+90.0,42-0-PO,Manuel Jesus Rivera  esq.  Maestranza PO,Coquimbo,E01,R,638,757,1395
+91.0,42-10-OP,Manuel Jesus Rivera  esq.  Santa Ester,Coquimbo,E01,I,17,18,35
+91.0,42-10-OP,Manuel Jesus Rivera  esq.  Santa Ester,Coquimbo,E01,R,1329,1654,2983
+91.0,42-10-OP,Manuel Jesus Rivera  esq.  Santa Ester,Coquimbo,E02,I,5,6,11
+92.0,42-10-PO,Manuel Jesus Rivera  esq.  Felipe Aceituno,Coquimbo,E01,I,2,0,2
+92.0,42-10-PO,Manuel Jesus Rivera  esq.  Felipe Aceituno,Coquimbo,E01,R,78,157,235
+93.0,42-15-OP,Manuel Jesus Rivera  esq.  Maestranza OP,Coquimbo,E01,I,2,2,4
+93.0,42-15-OP,Manuel Jesus Rivera  esq.  Maestranza OP,Coquimbo,E01,R,257,283,540
+94.0,42-15-PO,Manuel Jesus Rivera  esq.  Brasil,Coquimbo,E01,I,19,30,49
+94.0,42-15-PO,Manuel Jesus Rivera  esq.  Brasil,Coquimbo,E01,R,137,116,253
+95.0,42-20-OP,Manuel Jesus Rivera  esq.  John F. Kennedy,Coquimbo,E01,I,8,20,28
+95.0,42-20-OP,Manuel Jesus Rivera  esq.  John F. Kennedy,Coquimbo,E01,R,1342,1047,2389
+95.0,42-20-OP,Manuel Jesus Rivera  esq.  John F. Kennedy,Coquimbo,E02,I,0,27,27
+95.0,42-20-OP,Manuel Jesus Rivera  esq.  John F. Kennedy,Coquimbo,E02,R,0,1,1
+96.0,42-5-PO,Manuel Jesus Rivera  esq.  Carlos Dittborn,Coquimbo,E01,I,3,3,6
+96.0,42-5-PO,Manuel Jesus Rivera  esq.  Carlos Dittborn,Coquimbo,E01,R,223,282,505
+96.0,42-5-PO,Manuel Jesus Rivera  esq.  Carlos Dittborn,Coquimbo,E02,R,5,0,5
+97.0,43-0-NS,Manuel Rodriguez  esq.  Lautaro,Coquimbo,E02,I,0,1,1
+97.0,43-0-NS,Manuel Rodriguez  esq.  Lautaro,Coquimbo,E02,R,134,1376,1510
+98.0,43-0-SN,Manuel Rodriguez  esq.  Pedro Montt,Coquimbo,E02,I,1,11,12
+98.0,43-0-SN,Manuel Rodriguez  esq.  Pedro Montt,Coquimbo,E02,R,185,188,373
+99.0,44-0-PO,Miraflores  esq.  Santa Ester,Coquimbo,E01,R,0,1,1
+99.0,44-0-PO,Miraflores  esq.  Santa Ester,Coquimbo,E02,I,17,37,54
+99.0,44-0-PO,Miraflores  esq.  Santa Ester,Coquimbo,E02,R,75,89,164
+100.0,45-0-OP,Miramar  esq.  Ibiza,Coquimbo,E01,I,391,505,896
+100.0,45-0-OP,Miramar  esq.  Ibiza,Coquimbo,E01,R,184,337,521
+100.0,45-0-OP,Miramar  esq.  Ibiza,Coquimbo,E02,I,189,412,601
+100.0,45-0-OP,Miramar  esq.  Ibiza,Coquimbo,E02,R,291,692,983
+101.0,45-5-OP,Miramar  esq.  Marbella,Coquimbo,E01,I,23,59,82
+101.0,45-5-OP,Miramar  esq.  Marbella,Coquimbo,E01,R,31,97,128
+101.0,45-5-OP,Miramar  esq.  Marbella,Coquimbo,E02,I,25,33,58
+101.0,45-5-OP,Miramar  esq.  Marbella,Coquimbo,E02,R,63,197,260
+102.0,46-0-NS,Monjitas  esq.  Las Rosas,La Serena,E01,I,0,0,0
+102.0,46-0-NS,Monjitas  esq.  Las Rosas,La Serena,E02,I,843,74,917
+103.0,46-0-SN,Monjitas  esq.  Guatemala,La Serena,E02,I,99,897,996
+103.0,46-0-SN,Monjitas  esq.  Guatemala,La Serena,E02,R,9,43,52
+104.0,46-10-SN,Monjitas  esq.  Lautaro,La Serena,E02,I,58,2530,2588
+104.0,46-10-SN,Monjitas  esq.  Lautaro,La Serena,E02,R,5,7,12
+105.0,46-5-NS,Monjitas  esq.  Eleuterio Fredes,La Serena,E01,I,5,0,5
+105.0,46-5-NS,Monjitas  esq.  Eleuterio Fredes,La Serena,E02,I,1619,223,1842
+105.0,46-5-NS,Monjitas  esq.  Eleuterio Fredes,La Serena,E02,R,3,6,9
+106.0,46-5-SN,Monjitas  esq.  Esmeralda,La Serena,E02,I,494,197,691
+107.0,47-0-OP,Panamericana Norte  esq.  Cinco de Abril,MOP,E01,R,0,0,0
+107.0,47-0-OP,Panamericana Norte  esq.  Cinco de Abril,MOP,E02,I,6,16,22
+107.0,47-0-OP,Panamericana Norte  esq.  Cinco de Abril,MOP,E02,R,154,307,461
+108.0,47-0-PO,Panamericana Norte  esq.  Acceso Caletera Sur,MOP,E01,R,1,23,24
+108.0,47-0-PO,Panamericana Norte  esq.  Acceso Caletera Sur,MOP,E02,I,95,55,150
+108.0,47-0-PO,Panamericana Norte  esq.  Acceso Caletera Sur,MOP,E02,R,17,22,39
+109.0,47-10-OP,Panamericana Norte  esq.  18 de Septiembre,MOP,E01,I,0,2,2
+109.0,47-10-OP,Panamericana Norte  esq.  18 de Septiembre,MOP,E02,I,0,6,6
+109.0,47-10-OP,Panamericana Norte  esq.  18 de Septiembre,MOP,E02,R,135,627,762
+110.0,47-5-OP,Panamericana Norte  esq.  Diez de Julio,MOP,E01,I,1,1,2
+110.0,47-5-OP,Panamericana Norte  esq.  Diez de Julio,MOP,E02,I,35,62,97
+110.0,47-5-OP,Panamericana Norte  esq.  Diez de Julio,MOP,E02,R,339,646,985
+111.0,47-5-PO,Panamericana Norte  esq.  Acceso a Suecia,MOP,E01,I,19,26,45
+111.0,47-5-PO,Panamericana Norte  esq.  Acceso a Suecia,MOP,E01,R,11,19,30
+111.0,47-5-PO,Panamericana Norte  esq.  Acceso a Suecia,MOP,E02,I,11,6,17
+111.0,47-5-PO,Panamericana Norte  esq.  Acceso a Suecia,MOP,E02,R,31,52,83
+112.0,48-0-PO,Pedro Aguirre Cerda  esq.  Lautaro,La Serena,E02,I,1037,64,1101
+112.0,48-0-PO,Pedro Aguirre Cerda  esq.  Lautaro,La Serena,E02,R,0,3,3
+113.0,49-0-OP,Pedro Montt  esq.  Cochrane,Coquimbo,E02,R,353,648,1001
+114.0,50-0-NS,Pedro Pablo Munoz  esq.  Francisco de Aguirre,La Serena,E01,I,4531,2132,6663
+114.0,50-0-NS,Pedro Pablo Munoz  esq.  Francisco de Aguirre,La Serena,E02,I,3109,2663,5772
+114.0,50-0-NS,Pedro Pablo Munoz  esq.  Francisco de Aguirre,La Serena,E02,R,15,62,77
+115.0,51-0-NS,Presidente Jose Manuel Balmaceda  esq.  San Bartolome de La Serena,La Serena,E01,I,1272,497,1769
+115.0,51-0-NS,Presidente Jose Manuel Balmaceda  esq.  San Bartolome de La Serena,La Serena,E01,R,1,3,4
+115.0,51-0-NS,Presidente Jose Manuel Balmaceda  esq.  San Bartolome de La Serena,La Serena,E02,I,907,423,1330
+116.0,51-0-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Gil de Castro,La Serena,E01,I,20,25,45
+116.0,51-0-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Gil de Castro,La Serena,E01,R,0,11,11
+116.0,51-0-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Gil de Castro,La Serena,E02,I,359,417,776
+116.0,51-0-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Gil de Castro,La Serena,E02,R,0,3,3
+117.0,51-10-NS,Presidente Jose Manuel Balmaceda  esq.  Las Encinas NS,La Serena,E01,I,651,370,1021
+117.0,51-10-NS,Presidente Jose Manuel Balmaceda  esq.  Las Encinas NS,La Serena,E01,R,2,19,21
+117.0,51-10-NS,Presidente Jose Manuel Balmaceda  esq.  Las Encinas NS,La Serena,E02,I,459,385,844
+117.0,51-10-NS,Presidente Jose Manuel Balmaceda  esq.  Las Encinas NS,La Serena,E02,R,5,3,8
+118.0,51-10-SN,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos SN,La Serena,E01,I,707,550,1257
+118.0,51-10-SN,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos SN,La Serena,E01,R,23,34,57
+118.0,51-10-SN,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos SN,La Serena,E02,I,1631,1766,3397
+118.0,51-10-SN,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos SN,La Serena,E02,R,11,12,23
+119.0,51-15-NS,Presidente Jose Manuel Balmaceda  esq.  Punta de Teatinos,La Serena,E01,I,142,193,335
+119.0,51-15-NS,Presidente Jose Manuel Balmaceda  esq.  Punta de Teatinos,La Serena,E01,R,2,0,2
+119.0,51-15-NS,Presidente Jose Manuel Balmaceda  esq.  Punta de Teatinos,La Serena,E02,I,156,238,394
+119.0,51-15-NS,Presidente Jose Manuel Balmaceda  esq.  Punta de Teatinos,La Serena,E02,R,0,1,1
+120.0,51-15-SN,Presidente Jose Manuel Balmaceda  esq.  Andromeda,La Serena,E01,I,183,169,352
+120.0,51-15-SN,Presidente Jose Manuel Balmaceda  esq.  Andromeda,La Serena,E01,R,4,23,27
+120.0,51-15-SN,Presidente Jose Manuel Balmaceda  esq.  Andromeda,La Serena,E02,I,336,423,759
+120.0,51-15-SN,Presidente Jose Manuel Balmaceda  esq.  Andromeda,La Serena,E02,R,51,54,105
+121.0,51-20-NS,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello NS,La Serena,E01,I,369,415,784
+121.0,51-20-NS,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello NS,La Serena,E01,R,10,14,24
+121.0,51-20-NS,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello NS,La Serena,E02,I,315,449,764
+121.0,51-20-NS,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello NS,La Serena,E02,R,2,1,3
+122.0,51-20-SN,Presidente Jose Manuel Balmaceda  esq.  Los Abedules SN,La Serena,E01,I,520,420,940
+122.0,51-20-SN,Presidente Jose Manuel Balmaceda  esq.  Los Abedules SN,La Serena,E01,R,11,26,37
+122.0,51-20-SN,Presidente Jose Manuel Balmaceda  esq.  Los Abedules SN,La Serena,E02,I,733,1022,1755
+122.0,51-20-SN,Presidente Jose Manuel Balmaceda  esq.  Los Abedules SN,La Serena,E02,R,1,0,1
+123.0,51-25-NS,Presidente Jose Manuel Balmaceda  esq.  Jose Victorino Lastarria,La Serena,E01,I,945,668,1613
+123.0,51-25-NS,Presidente Jose Manuel Balmaceda  esq.  Jose Victorino Lastarria,La Serena,E01,R,18,7,25
+123.0,51-25-NS,Presidente Jose Manuel Balmaceda  esq.  Jose Victorino Lastarria,La Serena,E02,I,806,816,1622
+123.0,51-25-NS,Presidente Jose Manuel Balmaceda  esq.  Jose Victorino Lastarria,La Serena,E02,R,18,20,38
+124.0,51-25-SN,Presidente Jose Manuel Balmaceda  esq.  Arica SN,La Serena,E01,I,1040,1149,2189
+124.0,51-25-SN,Presidente Jose Manuel Balmaceda  esq.  Arica SN,La Serena,E01,R,21,22,43
+124.0,51-25-SN,Presidente Jose Manuel Balmaceda  esq.  Arica SN,La Serena,E02,I,1442,2059,3501
+124.0,51-25-SN,Presidente Jose Manuel Balmaceda  esq.  Arica SN,La Serena,E02,R,48,131,179
+125.0,51-30-NS,Presidente Jose Manuel Balmaceda  esq.  Iris Adriana Torres Ceballos,La Serena,E01,I,807,1097,1904
+125.0,51-30-NS,Presidente Jose Manuel Balmaceda  esq.  Iris Adriana Torres Ceballos,La Serena,E01,R,3,12,15
+125.0,51-30-NS,Presidente Jose Manuel Balmaceda  esq.  Iris Adriana Torres Ceballos,La Serena,E02,I,782,1411,2193
+125.0,51-30-NS,Presidente Jose Manuel Balmaceda  esq.  Iris Adriana Torres Ceballos,La Serena,E02,R,21,38,59
+126.0,51-30-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Zapiola,La Serena,E01,I,997,1477,2474
+126.0,51-30-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Zapiola,La Serena,E01,R,18,17,35
+126.0,51-30-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Zapiola,La Serena,E02,I,1131,1928,3059
+127.0,51-35-NS,Presidente Jose Manuel Balmaceda  esq.  Arica NS,La Serena,E01,I,966,1142,2108
+127.0,51-35-NS,Presidente Jose Manuel Balmaceda  esq.  Arica NS,La Serena,E01,R,31,13,44
+127.0,51-35-NS,Presidente Jose Manuel Balmaceda  esq.  Arica NS,La Serena,E02,I,1162,1471,2633
+127.0,51-35-NS,Presidente Jose Manuel Balmaceda  esq.  Arica NS,La Serena,E02,R,10,15,25
+128.0,51-35-SN,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello SN,La Serena,E01,I,1275,1050,2325
+128.0,51-35-SN,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello SN,La Serena,E01,R,9,0,9
+128.0,51-35-SN,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello SN,La Serena,E02,I,1359,1159,2518
+129.0,51-40-NS,Presidente Jose Manuel Balmaceda  esq.  Los Abedules NS,La Serena,E01,I,245,399,644
+129.0,51-40-NS,Presidente Jose Manuel Balmaceda  esq.  Los Abedules NS,La Serena,E01,R,11,38,49
+129.0,51-40-NS,Presidente Jose Manuel Balmaceda  esq.  Los Abedules NS,La Serena,E02,I,438,414,852
+129.0,51-40-NS,Presidente Jose Manuel Balmaceda  esq.  Los Abedules NS,La Serena,E02,R,22,25,47
+130.0,51-40-SN,Presidente Jose Manuel Balmaceda  esq.  Las Encinas SN,La Serena,E01,I,164,193,357
+130.0,51-40-SN,Presidente Jose Manuel Balmaceda  esq.  Las Encinas SN,La Serena,E01,R,0,1,1
+130.0,51-40-SN,Presidente Jose Manuel Balmaceda  esq.  Las Encinas SN,La Serena,E02,I,119,248,367
+130.0,51-40-SN,Presidente Jose Manuel Balmaceda  esq.  Las Encinas SN,La Serena,E02,R,39,81,120
+131.0,51-45-NS,Presidente Jose Manuel Balmaceda  esq.  Cruz del Sur,La Serena,E01,I,195,213,408
+131.0,51-45-NS,Presidente Jose Manuel Balmaceda  esq.  Cruz del Sur,La Serena,E01,R,5,6,11
+131.0,51-45-NS,Presidente Jose Manuel Balmaceda  esq.  Cruz del Sur,La Serena,E02,I,364,469,833
+131.0,51-45-NS,Presidente Jose Manuel Balmaceda  esq.  Cruz del Sur,La Serena,E02,R,31,41,72
+132.0,51-45-SN,Presidente Jose Manuel Balmaceda  esq.  Las Higueras,La Serena,E01,I,1373,1865,3238
+132.0,51-45-SN,Presidente Jose Manuel Balmaceda  esq.  Las Higueras,La Serena,E01,R,8,5,13
+132.0,51-45-SN,Presidente Jose Manuel Balmaceda  esq.  Las Higueras,La Serena,E02,I,1115,1556,2671
+132.0,51-45-SN,Presidente Jose Manuel Balmaceda  esq.  Las Higueras,La Serena,E02,R,1,0,1
+133.0,51-5-NS,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard NS,La Serena,E01,I,367,330,697
+133.0,51-5-NS,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard NS,La Serena,E01,R,5,8,13
+133.0,51-5-NS,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard NS,La Serena,E02,I,321,303,624
+133.0,51-5-NS,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard NS,La Serena,E02,R,66,100,166
+134.0,51-5-SN,Presidente Jose Manuel Balmaceda  esq.  Ralbun,La Serena,E01,I,177,185,362
+134.0,51-5-SN,Presidente Jose Manuel Balmaceda  esq.  Ralbun,La Serena,E01,R,14,30,44
+134.0,51-5-SN,Presidente Jose Manuel Balmaceda  esq.  Ralbun,La Serena,E02,I,735,871,1606
+134.0,51-5-SN,Presidente Jose Manuel Balmaceda  esq.  Ralbun,La Serena,E02,R,56,71,127
+135.0,51-50-NS,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos NS,La Serena,E01,I,389,474,863
+135.0,51-50-NS,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos NS,La Serena,E01,R,60,72,132
+135.0,51-50-NS,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos NS,La Serena,E02,I,481,636,1117
+135.0,51-50-NS,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos NS,La Serena,E02,R,115,186,301
+136.0,51-50-SN,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard SN,La Serena,E01,I,523,642,1165
+136.0,51-50-SN,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard SN,La Serena,E01,R,2,3,5
+136.0,51-50-SN,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard SN,La Serena,E02,I,390,620,1010
+136.0,51-50-SN,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard SN,La Serena,E02,R,0,0,0
+137.0,51-55-NS,Presidente Jose Manuel Balmaceda  esq.  Los Juncos,La Serena,E01,I,125,247,372
+137.0,51-55-NS,Presidente Jose Manuel Balmaceda  esq.  Los Juncos,La Serena,E01,R,21,41,62
+137.0,51-55-NS,Presidente Jose Manuel Balmaceda  esq.  Los Juncos,La Serena,E02,I,260,321,581
+137.0,51-55-NS,Presidente Jose Manuel Balmaceda  esq.  Los Juncos,La Serena,E02,R,48,116,164
+138.0,51-55-SN,Presidente Jose Manuel Balmaceda  esq.  Juan Soldado,La Serena,E01,I,2288,3343,5631
+138.0,51-55-SN,Presidente Jose Manuel Balmaceda  esq.  Juan Soldado,La Serena,E01,R,3,2,5
+138.0,51-55-SN,Presidente Jose Manuel Balmaceda  esq.  Juan Soldado,La Serena,E02,I,1185,2814,3999
+139.0,51-60-NS,Presidente Jose Manuel Balmaceda  esq.  Regimiento Arica,La Serena,E01,I,497,635,1132
+139.0,51-60-NS,Presidente Jose Manuel Balmaceda  esq.  Regimiento Arica,La Serena,E01,R,78,161,239
+139.0,51-60-NS,Presidente Jose Manuel Balmaceda  esq.  Regimiento Arica,La Serena,E02,I,457,692,1149
+139.0,51-60-NS,Presidente Jose Manuel Balmaceda  esq.  Regimiento Arica,La Serena,E02,R,123,315,438
+140.0,51-60-SN,Presidente Jose Manuel Balmaceda  esq.  Anima de Diego,La Serena,E01,I,1491,1781,3272
+140.0,51-60-SN,Presidente Jose Manuel Balmaceda  esq.  Anima de Diego,La Serena,E01,R,1,0,1
+140.0,51-60-SN,Presidente Jose Manuel Balmaceda  esq.  Anima de Diego,La Serena,E02,I,888,1636,2524
+141.0,51-65-SN,Presidente Jose Manuel Balmaceda  esq.  Amunategui,La Serena,E01,I,1902,3841,5743
+141.0,51-65-SN,Presidente Jose Manuel Balmaceda  esq.  Amunategui,La Serena,E01,R,0,0,0
+141.0,51-65-SN,Presidente Jose Manuel Balmaceda  esq.  Amunategui,La Serena,E02,I,980,2921,3901
+142.0,52-0-PO,Ramón Rodriguez esq.  Enrique Fernandez,Coquimbo,E01,R,491,1079,1570
+142.0,52-0-PO,Ramón Rodriguez esq.  Enrique Fernandez,Coquimbo,E02,R,4,2,6
+143.0,53-0-OP,Regimiento Arica  esq.  Estadio,Coquimbo,E01,I,765,389,1154
+143.0,53-0-OP,Regimiento Arica  esq.  Estadio,Coquimbo,E01,R,106,113,219
+143.0,53-0-OP,Regimiento Arica  esq.  Estadio,Coquimbo,E02,I,753,334,1087
+143.0,53-0-OP,Regimiento Arica  esq.  Estadio,Coquimbo,E02,R,307,336,643
+144.0,53-0-PO,Regimiento Arica  esq.  Las Araucarias,Coquimbo,E01,I,62,97,159
+144.0,53-0-PO,Regimiento Arica  esq.  Las Araucarias,Coquimbo,E01,R,303,108,411
+144.0,53-0-PO,Regimiento Arica  esq.  Las Araucarias,Coquimbo,E02,I,1703,988,2691
+144.0,53-0-PO,Regimiento Arica  esq.  Las Araucarias,Coquimbo,E02,R,27,23,50
+145.0,53-10-OP,Regimiento Arica  esq.  Miramar,Coquimbo,E01,I,15,11,26
+145.0,53-10-OP,Regimiento Arica  esq.  Miramar,Coquimbo,E01,R,13,40,53
+145.0,53-10-OP,Regimiento Arica  esq.  Miramar,Coquimbo,E02,I,94,103,197
+145.0,53-10-OP,Regimiento Arica  esq.  Miramar,Coquimbo,E02,R,49,115,164
+146.0,53-5-OP,Regimiento Arica  esq.  San Ramon,Coquimbo,E01,I,0,6,6
+146.0,53-5-OP,Regimiento Arica  esq.  San Ramon,Coquimbo,E01,R,0,13,13
+146.0,53-5-OP,Regimiento Arica  esq.  San Ramon,Coquimbo,E02,I,2,2,4
+146.0,53-5-OP,Regimiento Arica  esq.  San Ramon,Coquimbo,E02,R,3,14,17
+147.0,54-0-PO,Salvador Reyes  esq.  Rene Peri Fagestrom,La Serena,E01,I,5,0,5
+147.0,54-0-PO,Salvador Reyes  esq.  Rene Peri Fagestrom,La Serena,E02,I,1107,274,1381
+147.0,54-0-PO,Salvador Reyes  esq.  Rene Peri Fagestrom,La Serena,E02,R,5,16,21
+148.0,54-5-PO,Salvador Reyes  esq.  La Reconquista,La Serena,E01,I,7,2,9
+148.0,54-5-PO,Salvador Reyes  esq.  La Reconquista,La Serena,E02,I,1302,187,1489
+148.0,54-5-PO,Salvador Reyes  esq.  La Reconquista,La Serena,E02,R,4,23,27
+149.0,26-25-OP,Jose Joaquin Perez  esq.  La Cantera,Coquimbo,E01,I,6,8,14
+149.0,26-25-OP,Jose Joaquin Perez  esq.  La Cantera,Coquimbo,E01,R,10,7,17
+149.0,26-25-OP,Jose Joaquin Perez  esq.  La Cantera,Coquimbo,E02,I,38,50,88
+149.0,26-25-OP,Jose Joaquin Perez  esq.  La Cantera,Coquimbo,E02,R,274,421,695
+150.0,56-0-PO,Suecia  esq.  Suiza,Coquimbo,E01,I,18,27,45
+150.0,56-0-PO,Suecia  esq.  Suiza,Coquimbo,E01,R,293,227,520
+150.0,56-0-PO,Suecia  esq.  Suiza,Coquimbo,E02,R,0,4,4
+151.0,56-0-SN,Suecia  esq.  Asia,Coquimbo,E01,I,15,24,39
+151.0,56-0-SN,Suecia  esq.  Asia,Coquimbo,E01,R,60,239,299
+151.0,56-0-SN,Suecia  esq.  Asia,Coquimbo,E02,R,0,1,1
+152.0,56-10-NS,Suecia  esq.  Yugoeslavia,Coquimbo,E01,I,37,19,56
+152.0,56-10-NS,Suecia  esq.  Yugoeslavia,Coquimbo,E01,R,176,355,531
+153.0,56-10-OP,Suecia  esq.  Panamericana Norte,Coquimbo,E01,I,11,38,49
+153.0,56-10-OP,Suecia  esq.  Panamericana Norte,Coquimbo,E01,R,80,77,157
+153.0,56-10-OP,Suecia  esq.  Panamericana Norte,Coquimbo,E02,I,0,1,1
+154.0,56-5-NS,Suecia  esq.  Dinamarca,Coquimbo,E01,I,42,11,53
+154.0,56-5-NS,Suecia  esq.  Dinamarca,Coquimbo,E01,R,167,264,431
+155.0,56-5-SN,Suecia  esq.  Magallanes,Coquimbo,E01,I,12,3,15
+155.0,56-5-SN,Suecia  esq.  Magallanes,Coquimbo,E01,R,94,213,307
+156.0,57-0-NS,Videla  esq.  Eleuterio Ramirez,Coquimbo,E02,I,32,41,73
+156.0,57-0-NS,Videla  esq.  Eleuterio Ramirez,Coquimbo,E02,R,879,195,1074
+157.0,57-0-SN,Videla  esq.  Los Manzanos,Coquimbo,E01,R,1,0,1
+157.0,57-0-SN,Videla  esq.  Los Manzanos,Coquimbo,E02,I,9,46,55
+157.0,57-0-SN,Videla  esq.  Los Manzanos,Coquimbo,E02,R,613,4288,4901
+158.0,57-10-NS,Videla  esq.  Dario Salas,Coquimbo,E01,R,2,2,4
+158.0,57-10-NS,Videla  esq.  Dario Salas,Coquimbo,E02,I,57,1,58
+158.0,57-10-NS,Videla  esq.  Dario Salas,Coquimbo,E02,R,411,215,626
+159.0,57-5-NS,Videla  esq.  Carmona NS,Coquimbo,E02,I,6,7,13
+159.0,57-5-NS,Videla  esq.  Carmona NS,Coquimbo,E02,R,106,109,215
+160.0,57-5-SN,Videla  esq.  Carmona SN,Coquimbo,E01,R,0,6,6
+160.0,57-5-SN,Videla  esq.  Carmona SN,Coquimbo,E02,I,2,13,15
+160.0,57-5-SN,Videla  esq.  Carmona SN,Coquimbo,E02,R,138,898,1036
+161.0,58-10-SN,Videla Oriente  esq.  Eleuterio Ramirez,Coquimbo,E02,I,4,8,12
+161.0,58-10-SN,Videla Oriente  esq.  Eleuterio Ramirez,Coquimbo,E02,R,482,1447,1929
+162.0,59-0-PO,Vina del Mar  esq.  Pedro Aguirre Cerda,La Serena,E02,I,4022,3140,7162
+162.0,59-0-PO,Vina del Mar  esq.  Pedro Aguirre Cerda,La Serena,E02,R,114,166,280
+163.0,10-10-SN,Cienfuegos  esq. Peatonal La Recova,La Serena,E01,I,1326,333,1659
+163.0,10-10-SN,Cienfuegos  esq. Peatonal La Recova,La Serena,E02,I,512,272,784
+164.0,61-0-SN,Pacheco Altamirano esq. Regimiento Arica,Coquimbo,E01,I,323,309,632
+164.0,61-0-SN,Pacheco Altamirano esq. Regimiento Arica,Coquimbo,E01,R,23,90,113
+164.0,61-0-SN,Pacheco Altamirano esq. Regimiento Arica,Coquimbo,E02,I,1841,2203,4044
+164.0,61-0-SN,Pacheco Altamirano esq. Regimiento Arica,Coquimbo,E02,R,1,8,9
+165.0,16-10-OP,El Sauce  esq. Los Olivos,Coquimbo,E01,R,7,8,15
+165.0,16-10-OP,El Sauce  esq. Los Olivos,Coquimbo,E02,I,0,0,0
+165.0,16-10-OP,El Sauce  esq. Los Olivos,Coquimbo,E02,R,601,484,1085
+166.0,16-15-SN,El Sauce  esq. Raul Torres,Coquimbo,E01,R,11,2,13
+166.0,16-15-SN,El Sauce  esq. Raul Torres,Coquimbo,E02,R,638,231,869
+167.0,16-20-OP,El Sauce  esq. Los Nardos,Coquimbo,E01,I,5,0,5
+167.0,16-20-OP,El Sauce  esq. Los Nardos,Coquimbo,E01,R,5,2,7
+167.0,16-20-OP,El Sauce  esq. Los Nardos,Coquimbo,E02,I,6,16,22
+167.0,16-20-OP,El Sauce  esq. Los Nardos,Coquimbo,E02,R,1261,1106,2367
+168.0,16-25-OP,El Sauce  esq. Las Margaritas,Coquimbo,E01,I,1,0,1
+168.0,16-25-OP,El Sauce  esq. Las Margaritas,Coquimbo,E01,R,0,3,3
+168.0,16-25-OP,El Sauce  esq. Las Margaritas,Coquimbo,E02,I,23,53,76
+168.0,16-25-OP,El Sauce  esq. Las Margaritas,Coquimbo,E02,R,265,265,530
+169.0,16-30-OP,El Sauce  esq. Carlos Condell,Coquimbo,E01,R,5,5,10
+169.0,16-30-OP,El Sauce  esq. Carlos Condell,Coquimbo,E02,R,811,279,1090
+170.0,27-5-PO,Ruta 5 esq. Los Clarines,Coquimbo,E01,R,1,2,3
+170.0,27-5-PO,Ruta 5 esq. Los Clarines,Coquimbo,E02,I,0,0,0
+170.0,27-5-PO,Ruta 5 esq. Los Clarines,Coquimbo,E02,R,274,154,428
+171.0,27-10-PO,Ruta 5 esq. Los Copihues,Coquimbo,E02,R,45,41,86
+172.0,23-5-PO,John F. Kennedy esq. Washington,Coquimbo,E01,R,24,12,36
+172.0,23-5-PO,John F. Kennedy esq. Washington,Coquimbo,E02,I,16,41,57
+172.0,23-5-PO,John F. Kennedy esq. Washington,Coquimbo,E02,R,22,201,223
+173.0,3-10-OP,Arturo Alessandri  esq. Cardenal Caro,Coquimbo,E01,R,0,3,3
+173.0,3-10-OP,Arturo Alessandri  esq. Cardenal Caro,Coquimbo,E02,I,10,126,136
+173.0,3-10-OP,Arturo Alessandri  esq. Cardenal Caro,Coquimbo,E02,R,66,424,490
+174.0,3-15-OP,Arturo Alessandri  esq. Carmona,Coquimbo,E01,R,0,0,0
+174.0,3-15-OP,Arturo Alessandri  esq. Carmona,Coquimbo,E02,R,28,242,270
+175.0,3-20-OP,Arturo Alessandri  esq. Pedro Aguirre Cerda,Coquimbo,E01,R,1,3,4
+175.0,3-20-OP,Arturo Alessandri  esq. Pedro Aguirre Cerda,Coquimbo,E02,R,83,535,618
+176.0,16-25-PO,El Sauce  esq. Los Olivos,Coquimbo,E01,I,0,0,0
+176.0,16-25-PO,El Sauce  esq. Los Olivos,Coquimbo,E01,R,2,2,4
+176.0,16-25-PO,El Sauce  esq. Los Olivos,Coquimbo,E02,R,141,2042,2183
+177.0,16-20-NS,El Sauce  esq. Raul Torres,Coquimbo,E01,R,0,4,4
+177.0,16-20-NS,El Sauce  esq. Raul Torres,Coquimbo,E02,I,1,2,3
+177.0,16-20-NS,El Sauce  esq. Raul Torres,Coquimbo,E02,R,146,2017,2163
+178.0,16-15-PO,El Sauce  esq. Los Nardos,Coquimbo,E01,R,0,1,1
+178.0,16-15-PO,El Sauce  esq. Los Nardos,Coquimbo,E02,I,1,0,1
+178.0,16-15-PO,El Sauce  esq. Los Nardos,Coquimbo,E02,R,573,2290,2863
+179.0,16-10-PO,El Sauce  esq. Las Margaritas,Coquimbo,E02,I,48,2,50
+179.0,16-10-PO,El Sauce  esq. Las Margaritas,Coquimbo,E02,R,227,531,758
+180.0,63-0-OP,Merino Jarpa esq. Ignacio Serrano,Coquimbo,E02,R,301,1791,2092
+181.0,36-30-PO,Los Clarines  esq. Juan Domingo Arce,Coquimbo,E01,I,0,0,0
+181.0,36-30-PO,Los Clarines  esq. Juan Domingo Arce,Coquimbo,E01,R,2,0,2
+181.0,36-30-PO,Los Clarines  esq. Juan Domingo Arce,Coquimbo,E02,R,833,1273,2106
+182.0,64-10-PO,Wenceslao Vargas esq. Martín Badía,Coquimbo,E01,R,3,1,4
+182.0,64-10-PO,Wenceslao Vargas esq. Martín Badía,Coquimbo,E02,R,407,217,624
+183.0,64-5-PO,Wenceslao Vargas esq. Cardenal Caro,Coquimbo,E02,R,268,283,551
+184.0,64-0-PO,Wenceslao Vargas esq. Panama,Coquimbo,E02,R,946,478,1424
+185.0,21-5-PO,Guacolda  esq. Larrondo,Coquimbo,E02,I,0,1,1
+185.0,21-5-PO,Guacolda  esq. Larrondo,Coquimbo,E02,R,1645,1112,2757

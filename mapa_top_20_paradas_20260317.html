@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e7978f13e114b82c9ab27448dc27156 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; top: 10px; left: 50px; width: 300px; height: 40px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 16px; font-weight: bold; text-align: center; padding: 5px;">
+        Top 20 Paradas más Demandadas
+    </div>
+    
+    
+    <div style="position: fixed; bottom: 30px; left: 10px; width: 200px; height: 80px; 
+                background-color: white; border: 2px solid grey; z-index: 9999; 
+                font-size: 14px; padding: 10px;">
+        <b>Comuna</b><br>
+        <span style="color: red;">&#9679;</span> Coquimbo<br>
+        <span style="color: blue;">&#9679;</span> La Serena
+    </div>
+    
+    
+            <div class="folium-map" id="map_4e7978f13e114b82c9ab27448dc27156" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4e7978f13e114b82c9ab27448dc27156 = L.map(
+                "map_4e7978f13e114b82c9ab27448dc27156",
+                {
+                    center: [-29.913831894394995, -71.26131266218002],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_4e7978f13e114b82c9ab27448dc27156);
+
+            
+
+        
+    
+            var tile_layer_5b7811f8786716aecd6ee8db54e69786 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5b7811f8786716aecd6ee8db54e69786.addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var marker_9520862ae00a7906c83f78787c833c4c = L.marker(
+                [-29.90222784, -71.2470263345],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_bc4fa48e9dbeffbb4f3818df57eac8d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8e0f63fbf43a72634c10978ed77009f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e763fbe04ecf25210f6d28d414fee149 = $(`<div id="html_e763fbe04ecf25210f6d28d414fee149" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 10-5-SN<br><b>Nombre:</b> Cienfuegos  esq.  Cantournet<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 24,738</div>`)[0];
+                popup_d8e0f63fbf43a72634c10978ed77009f.setContent(html_e763fbe04ecf25210f6d28d414fee149);
+            
+        
+
+        marker_9520862ae00a7906c83f78787c833c4c.bindPopup(popup_d8e0f63fbf43a72634c10978ed77009f)
+        ;
+
+        
+    
+    
+            marker_9520862ae00a7906c83f78787c833c4c.bindTooltip(
+                `<div>
+                     10-5-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9520862ae00a7906c83f78787c833c4c.setIcon(icon_bc4fa48e9dbeffbb4f3818df57eac8d4);
+            
+    
+            var marker_a821ceb2a6d3ec1c9b345f2260996afb = L.marker(
+                [-29.8884527465, -71.2183882204],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_b329dcb8983b42d12e1e17a2c66a74b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea155a6405fb8bdcbb65588a6fb7246b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_02db97b50b1fb853750a747af20ca987 = $(`<div id="html_02db97b50b1fb853750a747af20ca987" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 34-0-NS<br><b>Nombre:</b> Las Pircas  esq.  El Portezuelo<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 19,264</div>`)[0];
+                popup_ea155a6405fb8bdcbb65588a6fb7246b.setContent(html_02db97b50b1fb853750a747af20ca987);
+            
+        
+
+        marker_a821ceb2a6d3ec1c9b345f2260996afb.bindPopup(popup_ea155a6405fb8bdcbb65588a6fb7246b)
+        ;
+
+        
+    
+    
+            marker_a821ceb2a6d3ec1c9b345f2260996afb.bindTooltip(
+                `<div>
+                     34-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a821ceb2a6d3ec1c9b345f2260996afb.setIcon(icon_b329dcb8983b42d12e1e17a2c66a74b9);
+            
+    
+            var marker_9f1c02dd5a7b20d563222a585d04e082 = L.marker(
+                [-29.912018274, -71.256283637],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_d37cb3a4498b7488d7d30aa6d3c42e37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0815070e90b89e8a20415989840dc20b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_750ebfc12213f82f5621217b20cce85a = $(`<div id="html_750ebfc12213f82f5621217b20cce85a" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 15-0-NS<br><b>Nombre:</b> El Santo  esq.  Vicente Huidobro<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 15,772</div>`)[0];
+                popup_0815070e90b89e8a20415989840dc20b.setContent(html_750ebfc12213f82f5621217b20cce85a);
+            
+        
+
+        marker_9f1c02dd5a7b20d563222a585d04e082.bindPopup(popup_0815070e90b89e8a20415989840dc20b)
+        ;
+
+        
+    
+    
+            marker_9f1c02dd5a7b20d563222a585d04e082.bindTooltip(
+                `<div>
+                     15-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9f1c02dd5a7b20d563222a585d04e082.setIcon(icon_d37cb3a4498b7488d7d30aa6d3c42e37);
+            
+    
+            var marker_848cf56eb2a89d606153ec93b5ce846d = L.marker(
+                [-29.9058364744, -71.2484696497],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_5b6323b99d7d88301684edf6158ae832 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3583c9f67acb3267877921040d5991a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b989736c14d662d8f25d72f907e714e = $(`<div id="html_8b989736c14d662d8f25d72f907e714e" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 10-0-SN<br><b>Nombre:</b> Cienfuegos  esq.  Domeyko<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 13,185</div>`)[0];
+                popup_3583c9f67acb3267877921040d5991a9.setContent(html_8b989736c14d662d8f25d72f907e714e);
+            
+        
+
+        marker_848cf56eb2a89d606153ec93b5ce846d.bindPopup(popup_3583c9f67acb3267877921040d5991a9)
+        ;
+
+        
+    
+    
+            marker_848cf56eb2a89d606153ec93b5ce846d.bindTooltip(
+                `<div>
+                     10-0-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_848cf56eb2a89d606153ec93b5ce846d.setIcon(icon_5b6323b99d7d88301684edf6158ae832);
+            
+    
+            var marker_ddadbe50295f9277021dcc6428b8eebf = L.marker(
+                [-29.9062763983, -71.2543786879],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_c1d683cf6d3e0b25de8b916d67f760e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7ed663f97dc8525105a2e3da7dec810 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6652105c4cb2fc705cd2ecaa5c54fe91 = $(`<div id="html_6652105c4cb2fc705cd2ecaa5c54fe91" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 50-0-NS<br><b>Nombre:</b> Pedro Pablo Munoz  esq.  Francisco de Aguirre<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 12,512</div>`)[0];
+                popup_a7ed663f97dc8525105a2e3da7dec810.setContent(html_6652105c4cb2fc705cd2ecaa5c54fe91);
+            
+        
+
+        marker_ddadbe50295f9277021dcc6428b8eebf.bindPopup(popup_a7ed663f97dc8525105a2e3da7dec810)
+        ;
+
+        
+    
+    
+            marker_ddadbe50295f9277021dcc6428b8eebf.bindTooltip(
+                `<div>
+                     50-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ddadbe50295f9277021dcc6428b8eebf.setIcon(icon_c1d683cf6d3e0b25de8b916d67f760e8);
+            
+    
+            var marker_7b38f607a8a7305491874fae7eedc369 = L.marker(
+                [-29.9102623523, -71.250046509],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_650113adff00f2fec45b135a1749ca05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1085c8d03c888b059165c24937de4647 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27d92afa3246ec5883fb9c4e9f777a91 = $(`<div id="html_27d92afa3246ec5883fb9c4e9f777a91" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 51-65-SN<br><b>Nombre:</b> Presidente Jose Manuel Balmaceda  esq.  Amunategui<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 9,644</div>`)[0];
+                popup_1085c8d03c888b059165c24937de4647.setContent(html_27d92afa3246ec5883fb9c4e9f777a91);
+            
+        
+
+        marker_7b38f607a8a7305491874fae7eedc369.bindPopup(popup_1085c8d03c888b059165c24937de4647)
+        ;
+
+        
+    
+    
+            marker_7b38f607a8a7305491874fae7eedc369.bindTooltip(
+                `<div>
+                     51-65-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b38f607a8a7305491874fae7eedc369.setIcon(icon_650113adff00f2fec45b135a1749ca05);
+            
+    
+            var marker_4492ad7d762bc515de21095af7d98c48 = L.marker(
+                [-29.9164303334, -71.2528372217],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_4d70ccfce03ac3c56966ca2c49132afb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0720b1f06c53c6040c51e535557d3ed3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d13849db29a68d50fc0be28e3063ac45 = $(`<div id="html_d13849db29a68d50fc0be28e3063ac45" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 51-55-SN<br><b>Nombre:</b> Presidente Jose Manuel Balmaceda  esq.  Juan Soldado<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 9,635</div>`)[0];
+                popup_0720b1f06c53c6040c51e535557d3ed3.setContent(html_d13849db29a68d50fc0be28e3063ac45);
+            
+        
+
+        marker_4492ad7d762bc515de21095af7d98c48.bindPopup(popup_0720b1f06c53c6040c51e535557d3ed3)
+        ;
+
+        
+    
+    
+            marker_4492ad7d762bc515de21095af7d98c48.bindTooltip(
+                `<div>
+                     51-55-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4492ad7d762bc515de21095af7d98c48.setIcon(icon_4d70ccfce03ac3c56966ca2c49132afb);
+            
+    
+            var marker_fbdcf320b57e75ee1fe26b99678e005a = L.marker(
+                [-29.95795806, -71.3380603676],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_131372aa55bd4adf58cb9664aad297f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3e33d44e12081c353e0284efddb09af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f797ad5cdd494f2464ff9fc0372c0c99 = $(`<div id="html_f797ad5cdd494f2464ff9fc0372c0c99" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 18-0-SN<br><b>Nombre:</b> Francisco Antonio Varela  esq.  Diego Portales<br><b>Comuna:</b> Coquimbo<br><b>Demanda:</b> 9,589</div>`)[0];
+                popup_c3e33d44e12081c353e0284efddb09af.setContent(html_f797ad5cdd494f2464ff9fc0372c0c99);
+            
+        
+
+        marker_fbdcf320b57e75ee1fe26b99678e005a.bindPopup(popup_c3e33d44e12081c353e0284efddb09af)
+        ;
+
+        
+    
+    
+            marker_fbdcf320b57e75ee1fe26b99678e005a.bindTooltip(
+                `<div>
+                     18-0-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fbdcf320b57e75ee1fe26b99678e005a.setIcon(icon_131372aa55bd4adf58cb9664aad297f0);
+            
+    
+            var marker_a01a16e91039044a76ea062e50def6c2 = L.marker(
+                [-29.9097547686, -71.246901668],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_e8c33c2aa8527a840a069fdbec0ea342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e49906cec051b0c80c75d4067e362d25 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1f6b9d4420d8852b84cca8cdf0f4df7 = $(`<div id="html_c1f6b9d4420d8852b84cca8cdf0f4df7" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 6-5-SN<br><b>Nombre:</b> Benavente  esq.  Amunategui<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 8,338</div>`)[0];
+                popup_e49906cec051b0c80c75d4067e362d25.setContent(html_c1f6b9d4420d8852b84cca8cdf0f4df7);
+            
+        
+
+        marker_a01a16e91039044a76ea062e50def6c2.bindPopup(popup_e49906cec051b0c80c75d4067e362d25)
+        ;
+
+        
+    
+    
+            marker_a01a16e91039044a76ea062e50def6c2.bindTooltip(
+                `<div>
+                     6-5-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a01a16e91039044a76ea062e50def6c2.setIcon(icon_e8c33c2aa8527a840a069fdbec0ea342);
+            
+    
+            var marker_86544ad47acceeb74c2346e89af4f11e = L.marker(
+                [-29.9027217271, -71.2566558876],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_0408d6c11ebfe2a2820dc7b0f68727ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2381999981250e9265925cc9b50cb4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80aa90cc97dc8b3a7bb0248ebc8f4973 = $(`<div id="html_80aa90cc97dc8b3a7bb0248ebc8f4973" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 27-0-NS<br><b>Nombre:</b> Ruta 5 esq.  Eduardo de la Barra<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 7,968</div>`)[0];
+                popup_b2381999981250e9265925cc9b50cb4a.setContent(html_80aa90cc97dc8b3a7bb0248ebc8f4973);
+            
+        
+
+        marker_86544ad47acceeb74c2346e89af4f11e.bindPopup(popup_b2381999981250e9265925cc9b50cb4a)
+        ;
+
+        
+    
+    
+            marker_86544ad47acceeb74c2346e89af4f11e.bindTooltip(
+                `<div>
+                     27-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86544ad47acceeb74c2346e89af4f11e.setIcon(icon_0408d6c11ebfe2a2820dc7b0f68727ed);
+            
+    
+            var marker_44f9770c4b1993a88f2d80834ea47135 = L.marker(
+                [-29.96156444, -71.3490588454],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_f53fc5d3189dbe89c2b1c9697a01bafb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b529562cd44e787ede777417be3f327 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed8c785a973f4f49e6f3c2bdb3fe0354 = $(`<div id="html_ed8c785a973f4f49e6f3c2bdb3fe0354" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 21-0-PO<br><b>Nombre:</b> Guacolda  esq.  Manuel Rodriguez<br><b>Comuna:</b> Coquimbo<br><b>Demanda:</b> 7,716</div>`)[0];
+                popup_8b529562cd44e787ede777417be3f327.setContent(html_ed8c785a973f4f49e6f3c2bdb3fe0354);
+            
+        
+
+        marker_44f9770c4b1993a88f2d80834ea47135.bindPopup(popup_8b529562cd44e787ede777417be3f327)
+        ;
+
+        
+    
+    
+            marker_44f9770c4b1993a88f2d80834ea47135.bindTooltip(
+                `<div>
+                     21-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_44f9770c4b1993a88f2d80834ea47135.setIcon(icon_f53fc5d3189dbe89c2b1c9697a01bafb);
+            
+    
+            var marker_4b925a9546963eeb650aba410a776ff3 = L.marker(
+                [-29.8865739657, -71.24352835],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_2e33d2d618490ad841e8b73e80db9f87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c28d5fd41199f650edc94e37c6d30fb5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b1c9a9b72a4d606cf521e610bf203bf = $(`<div id="html_9b1c9a9b72a4d606cf521e610bf203bf" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 5-0-SN<br><b>Nombre:</b> Bandera  esq.  La Reconquista<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 7,639</div>`)[0];
+                popup_c28d5fd41199f650edc94e37c6d30fb5.setContent(html_9b1c9a9b72a4d606cf521e610bf203bf);
+            
+        
+
+        marker_4b925a9546963eeb650aba410a776ff3.bindPopup(popup_c28d5fd41199f650edc94e37c6d30fb5)
+        ;
+
+        
+    
+    
+            marker_4b925a9546963eeb650aba410a776ff3.bindTooltip(
+                `<div>
+                     5-0-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b925a9546963eeb650aba410a776ff3.setIcon(icon_2e33d2d618490ad841e8b73e80db9f87);
+            
+    
+            var marker_80540d040d5a935f36e9aad2a14aec98 = L.marker(
+                [-29.8715475796, -71.2465923362],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_98141492fbd6e33d445f1837934b8014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_007980d351ee0cd0494a8c19d8089c3f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3abf5970e58c534c9b142558ad9d3e6 = $(`<div id="html_b3abf5970e58c534c9b142558ad9d3e6" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 59-0-PO<br><b>Nombre:</b> Vina del Mar  esq.  Pedro Aguirre Cerda<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 7,442</div>`)[0];
+                popup_007980d351ee0cd0494a8c19d8089c3f.setContent(html_b3abf5970e58c534c9b142558ad9d3e6);
+            
+        
+
+        marker_80540d040d5a935f36e9aad2a14aec98.bindPopup(popup_007980d351ee0cd0494a8c19d8089c3f)
+        ;
+
+        
+    
+    
+            marker_80540d040d5a935f36e9aad2a14aec98.bindTooltip(
+                `<div>
+                     59-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80540d040d5a935f36e9aad2a14aec98.setIcon(icon_98141492fbd6e33d445f1837934b8014);
+            
+    
+            var marker_abd2641611193580f5139db0905bb715 = L.marker(
+                [-29.8836054931, -71.2450321366],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_8103ebbc686a9e54dcf5dca1eb52a955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f01eb670bf80083b6c2cb9139056fc3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6fe146541095acf76f6f98ee5af7f07 = $(`<div id="html_c6fe146541095acf76f6f98ee5af7f07" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 30-0-NS<br><b>Nombre:</b> La Conquista  esq.  Alejandro Flores<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 7,353</div>`)[0];
+                popup_f01eb670bf80083b6c2cb9139056fc3a.setContent(html_c6fe146541095acf76f6f98ee5af7f07);
+            
+        
+
+        marker_abd2641611193580f5139db0905bb715.bindPopup(popup_f01eb670bf80083b6c2cb9139056fc3a)
+        ;
+
+        
+    
+    
+            marker_abd2641611193580f5139db0905bb715.bindTooltip(
+                `<div>
+                     30-0-NS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_abd2641611193580f5139db0905bb715.setIcon(icon_8103ebbc686a9e54dcf5dca1eb52a955);
+            
+    
+            var marker_d45d981c588afb4aa40f323a1d3fdfcc = L.marker(
+                [-29.88567333, -71.2248750611],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_1af932a118184d231ad0aeaa3bf2d82d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48d911e3a2dc0687a6474420c2973a0c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_363c5cea6d55c40bf95eedaf7c0e18ae = $(`<div id="html_363c5cea6d55c40bf95eedaf7c0e18ae" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 25-25-PO<br><b>Nombre:</b> Gaspar Marin  esq.  Roberto Ochoa<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 6,618</div>`)[0];
+                popup_48d911e3a2dc0687a6474420c2973a0c.setContent(html_363c5cea6d55c40bf95eedaf7c0e18ae);
+            
+        
+
+        marker_d45d981c588afb4aa40f323a1d3fdfcc.bindPopup(popup_48d911e3a2dc0687a6474420c2973a0c)
+        ;
+
+        
+    
+    
+            marker_d45d981c588afb4aa40f323a1d3fdfcc.bindTooltip(
+                `<div>
+                     25-25-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d45d981c588afb4aa40f323a1d3fdfcc.setIcon(icon_1af932a118184d231ad0aeaa3bf2d82d);
+            
+    
+            var marker_371566dd1b97dd9496dec41ce3249385 = L.marker(
+                [-29.9209468373, -71.2551227921],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_c03c930e30aa585a1f6ca4b522b98a98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7c39bff26dfb7c25ebf21eaac0880a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95290ad40bb5b94e16df5f1a08103a8f = $(`<div id="html_95290ad40bb5b94e16df5f1a08103a8f" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 51-45-SN<br><b>Nombre:</b> Presidente Jose Manuel Balmaceda  esq.  Las Higueras<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 5,923</div>`)[0];
+                popup_b7c39bff26dfb7c25ebf21eaac0880a5.setContent(html_95290ad40bb5b94e16df5f1a08103a8f);
+            
+        
+
+        marker_371566dd1b97dd9496dec41ce3249385.bindPopup(popup_b7c39bff26dfb7c25ebf21eaac0880a5)
+        ;
+
+        
+    
+    
+            marker_371566dd1b97dd9496dec41ce3249385.bindTooltip(
+                `<div>
+                     51-45-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_371566dd1b97dd9496dec41ce3249385.setIcon(icon_c03c930e30aa585a1f6ca4b522b98a98);
+            
+    
+            var marker_5d04adae7a2996bcaea0f1bcfde06e31 = L.marker(
+                [-29.9320495382, -71.2594225599],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_b9316ca87d294c84b2547cbdbbe17472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce6a2c193b067d2fbd8f6a14e5147feb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43abd6b4ee87715868ef59f1d195d4d5 = $(`<div id="html_43abd6b4ee87715868ef59f1d195d4d5" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 51-25-SN<br><b>Nombre:</b> Presidente Jose Manuel Balmaceda  esq.  Arica SN<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 5,912</div>`)[0];
+                popup_ce6a2c193b067d2fbd8f6a14e5147feb.setContent(html_43abd6b4ee87715868ef59f1d195d4d5);
+            
+        
+
+        marker_5d04adae7a2996bcaea0f1bcfde06e31.bindPopup(popup_ce6a2c193b067d2fbd8f6a14e5147feb)
+        ;
+
+        
+    
+    
+            marker_5d04adae7a2996bcaea0f1bcfde06e31.bindTooltip(
+                `<div>
+                     51-25-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5d04adae7a2996bcaea0f1bcfde06e31.setIcon(icon_b9316ca87d294c84b2547cbdbbe17472);
+            
+    
+            var marker_a0ad827f37b862a1240aadd71f5633e4 = L.marker(
+                [-29.91256328, -71.2508699467],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_87bfe7f93ef92e37c35e2c57214c8892 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d90959735b2024b2792badb50e82138 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ffd6d3c55df5e333d5c7190aad5a6ab = $(`<div id="html_5ffd6d3c55df5e333d5c7190aad5a6ab" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 51-60-SN<br><b>Nombre:</b> Presidente Jose Manuel Balmaceda  esq.  Anima de Diego<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 5,797</div>`)[0];
+                popup_1d90959735b2024b2792badb50e82138.setContent(html_5ffd6d3c55df5e333d5c7190aad5a6ab);
+            
+        
+
+        marker_a0ad827f37b862a1240aadd71f5633e4.bindPopup(popup_1d90959735b2024b2792badb50e82138)
+        ;
+
+        
+    
+    
+            marker_a0ad827f37b862a1240aadd71f5633e4.bindTooltip(
+                `<div>
+                     51-60-SN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a0ad827f37b862a1240aadd71f5633e4.setIcon(icon_87bfe7f93ef92e37c35e2c57214c8892);
+            
+    
+            var marker_9b6e8d50819849c99639fd1c3188aaca = L.marker(
+                [-29.9059658494, -71.2557725322],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_fb20c9331d5d7b4e8e380501dd209692 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5a0b13eb7bcb54d8a49b668b04069e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6237886173ad273fc3cbf88c6e735231 = $(`<div id="html_6237886173ad273fc3cbf88c6e735231" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 20-0-PO<br><b>Nombre:</b> Francisco de Aguirre  esq.  Isabel Riquelme<br><b>Comuna:</b> La Serena<br><b>Demanda:</b> 5,753</div>`)[0];
+                popup_b5a0b13eb7bcb54d8a49b668b04069e7.setContent(html_6237886173ad273fc3cbf88c6e735231);
+            
+        
+
+        marker_9b6e8d50819849c99639fd1c3188aaca.bindPopup(popup_b5a0b13eb7bcb54d8a49b668b04069e7)
+        ;
+
+        
+    
+    
+            marker_9b6e8d50819849c99639fd1c3188aaca.bindTooltip(
+                `<div>
+                     20-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b6e8d50819849c99639fd1c3188aaca.setIcon(icon_fb20c9331d5d7b4e8e380501dd209692);
+            
+    
+            var marker_8cceb101713147030c8b67484687b405 = L.marker(
+                [-30.0042086, -71.3269305],
+                {
+}
+            ).addTo(map_4e7978f13e114b82c9ab27448dc27156);
+        
+    
+            var icon_d1aa7ea188962af97c2bceef35ec1cb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9dae1aad3b43bb596be66c66a32c72ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f561068975636f12863cf8ea5f876177 = $(`<div id="html_f561068975636f12863cf8ea5f876177" style="width: 100.0%; height: 100.0%;"><b>Código:</b> 60-0-PO<br><b>Nombre:</b> Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes<br><b>Comuna:</b> Coquimbo<br><b>Demanda:</b> 5,746</div>`)[0];
+                popup_9dae1aad3b43bb596be66c66a32c72ce.setContent(html_f561068975636f12863cf8ea5f876177);
+            
+        
+
+        marker_8cceb101713147030c8b67484687b405.bindPopup(popup_9dae1aad3b43bb596be66c66a32c72ce)
+        ;
+
+        
+    
+    
+            marker_8cceb101713147030c8b67484687b405.bindTooltip(
+                `<div>
+                     60-0-PO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cceb101713147030c8b67484687b405.setIcon(icon_d1aa7ea188962af97c2bceef35ec1cb0);
+            
+</script>
+</html>

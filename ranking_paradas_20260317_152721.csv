@@ -1,0 +1,187 @@
+﻿ID_PARADA,CODIGO_PARADA,NOMBRE_PARADA,COMUNA_PARADA,TOTAL_SUBE,TOTAL_BAJA,EVENTOS,LAT_PARADA,LON_PARADA,TOTAL_DEMANDA
+19.0,10-5-SN,Cienfuegos  esq.  Cantournet,La Serena,14022,10716,9350,-29.90222784,-71.2470263345,24738
+69.0,34-0-NS,Las Pircas  esq.  El Portezuelo,La Serena,9700,9564,8371,-29.8884527465,-71.2183882204,19264
+28.0,15-0-NS,El Santo  esq.  Vicente Huidobro,La Serena,9597,6175,5295,-29.912018274,-71.256283637,15772
+17.0,10-0-SN,Cienfuegos  esq.  Domeyko,La Serena,6184,7001,7147,-29.9058364744,-71.2484696497,13185
+114.0,50-0-NS,Pedro Pablo Munoz  esq.  Francisco de Aguirre,La Serena,7655,4857,4980,-29.9062763983,-71.2543786879,12512
+141.0,51-65-SN,Presidente Jose Manuel Balmaceda  esq.  Amunategui,La Serena,2882,6762,5423,-29.9102623523,-71.250046509,9644
+138.0,51-55-SN,Presidente Jose Manuel Balmaceda  esq.  Juan Soldado,La Serena,3476,6159,5304,-29.9164303334,-71.2528372217,9635
+34.0,18-0-SN,Francisco Antonio Varela  esq.  Diego Portales,Coquimbo,2800,6789,3047,-29.95795806,-71.3380603676,9589
+12.0,6-5-SN,Benavente  esq.  Amunategui,La Serena,2882,5456,4338,-29.9097547686,-71.246901668,8338
+61.0,27-0-NS,Ruta 5 esq.  Eduardo de la Barra,La Serena,3228,4740,4234,-29.9027217271,-71.2566558876,7968
+40.0,21-0-PO,Guacolda  esq.  Manuel Rodriguez,Coquimbo,2679,5037,3341,-29.96156444,-71.3490588454,7716
+10.0,5-0-SN,Bandera  esq.  La Reconquista,La Serena,1299,6340,4368,-29.8865739657,-71.24352835,7639
+162.0,59-0-PO,Vina del Mar  esq.  Pedro Aguirre Cerda,La Serena,4136,3306,3529,-29.8715475796,-71.2465923362,7442
+64.0,30-0-NS,La Conquista  esq.  Alejandro Flores,La Serena,1510,5843,3900,-29.8836054931,-71.2450321366,7353
+49.0,25-25-PO,Gaspar Marin  esq.  Roberto Ochoa,La Serena,1147,5471,3195,-29.88567333,-71.2248750611,6618
+132.0,51-45-SN,Presidente Jose Manuel Balmaceda  esq.  Las Higueras,La Serena,2497,3426,4331,-29.9209468373,-71.2551227921,5923
+124.0,51-25-SN,Presidente Jose Manuel Balmaceda  esq.  Arica SN,La Serena,2551,3361,3701,-29.9320495382,-71.2594225599,5912
+140.0,51-60-SN,Presidente Jose Manuel Balmaceda  esq.  Anima de Diego,La Serena,2380,3417,4039,-29.91256328,-71.2508699467,5797
+39.0,20-0-PO,Francisco de Aguirre  esq.  Isabel Riquelme,La Serena,3465,2288,2642,-29.9059658494,-71.2557725322,5753
+1.0,60-0-PO,Alberto Hurtado Cruchaga esq. Manuel Ramírez Cifuentes,Coquimbo,443,5303,3365,-30.0042086,-71.3269305,5746
+126.0,51-30-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Zapiola,La Serena,2146,3422,3321,-29.9279087956,-71.25815822,5568
+24.0,13-15-NS,El Islon  esq.  Costanera,La Serena,4525,785,2921,-29.89328399,-71.2498334757,5310
+157.0,57-0-SN,Videla  esq.  Los Manzanos,Coquimbo,623,4334,2289,-29.9670734955,-71.3356013207,4957
+88.0,40-5-PO,Los Morros  esq.  Los Arenales,La Serena,1353,3568,4185,-29.8876487694,-71.2186047604,4921
+27.0,14-5-SN,El Libertador  esq.  Balada,La Serena,273,4632,2977,-29.8904282026,-71.2433826553,4905
+128.0,51-35-SN,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello SN,La Serena,2643,2209,3246,-29.92446807,-71.2568536358,4852
+127.0,51-35-NS,Presidente Jose Manuel Balmaceda  esq.  Arica NS,La Serena,2169,2641,3110,-29.9319785035,-71.2596211405,4810
+164.0,61-0-SN,Pacheco Altamirano esq. Regimiento Arica,Coquimbo,2188,2610,2879,-29.9503421023,-71.268198257,4798
+118.0,51-10-SN,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos SN,La Serena,2372,2362,2929,-29.9432276278,-71.2645637404,4734
+78.0,36-25-NS,Los Clarines  esq.  Glorias Navales,Coquimbo,579,4027,2446,-29.992763116,-71.3289507574,4606
+72.0,36-10-NS,Los Clarines  esq.  Fernando Carreno,Coquimbo,989,3569,2741,-29.9862524355,-71.334475413,4558
+125.0,51-30-NS,Presidente Jose Manuel Balmaceda  esq.  Iris Adriana Torres Ceballos,La Serena,1613,2558,2564,-29.92786858,-71.2583744385,4171
+87.0,40-0-PO,Los Morros  esq.  Las Acequias,La Serena,252,3899,2246,-29.8871216956,-71.2206574456,4151
+32.0,16-5-NS,El Sauce  esq. Francisco Sánchez,Coquimbo,1151,2971,2881,-30.0028694,-71.3320167,4122
+30.0,16-0-NS,El Sauce  esq. Ramón Rodríguez,Coquimbo,378,3734,2654,-29.9975639,-71.336725,4112
+26.0,14-10-SN,El Libertador  esq.  Avenida Monte Grande,La Serena,261,3796,2537,-29.89148163,-71.2440775135,4057
+54.0,26-10-PO,Jose Joaquin Perez  esq.  Rio Rapel,Coquimbo,1709,2021,2496,-29.96265127,-71.3040192693,3730
+48.0,25-20-PO,Gaspar Marin  3685,La Serena,807,2922,2213,-29.8842420371,-71.2313693982,3729
+52.0,26-0-PO,Jose Joaquin Perez  esq.  Santa Margarita,Coquimbo,1470,2174,1810,-29.9658508296,-71.311018773,3644
+71.0,36-0-NS,Los Clarines  esq.  Los Claveles,Coquimbo,714,2828,2410,-29.9804150855,-71.3421452154,3542
+0.0,60-0-OP,Alberto Hurtado Cruchaga esq. El Sauce,Coquimbo,2527,831,2018,-30.00514428,-71.3294191233,3358
+79.0,36-5-NS,Los Clarines  esq.  Los Pimientos,Coquimbo,372,2982,2152,-29.9834035587,-71.3382239804,3354
+144.0,53-0-PO,Regimiento Arica  esq.  Las Araucarias,Coquimbo,2095,1216,2007,-29.9492074892,-71.2852924811,3311
+123.0,51-25-NS,Presidente Jose Manuel Balmaceda  esq.  Jose Victorino Lastarria,La Serena,1787,1511,2113,-29.9261204864,-71.257835631,3298
+47.0,25-15-PO,Gaspar Marin  esq.  Colombia,La Serena,423,2809,2118,-29.88325743,-71.2376911934,3232
+11.0,6-0-SN,Benavente  esq.  Franscisco de Aguirre,La Serena,1307,1883,2265,-29.9074883055,-71.2466207114,3190
+143.0,53-0-OP,Regimiento Arica  esq.  Estadio,Coquimbo,1931,1172,1776,-29.94944963,-71.2710249628,3103
+115.0,51-0-NS,Presidente Jose Manuel Balmaceda  esq.  San Bartolome de La Serena,La Serena,2180,923,2040,-29.9156322411,-71.2526623361,3103
+9.0,4-15-PO,Avenida Los Lagos  esq.  Presidente Jose Manuel Balmaceda,Coquimbo,1309,1744,2183,-29.9552655734,-71.2684326843,3053
+91.0,42-10-OP,Manuel Jesus Rivera  esq.  Santa Ester,Coquimbo,1351,1678,1704,-29.9702258,-71.3268444049,3029
+100.0,45-0-OP,Miramar  esq.  Ibiza,Coquimbo,1055,1946,1739,-29.9507323311,-71.2829237711,3001
+139.0,51-60-NS,Presidente Jose Manuel Balmaceda  esq.  Regimiento Arica,La Serena,1155,1803,1829,-29.9487510771,-71.2682530729,2958
+84.0,38-0-NS,Los Diamelos  esq.  Las Lilas,Coquimbo,964,1901,1838,-29.9768975,-71.3402250461,2865
+178.0,16-15-PO,El Sauce  esq. Los Nardos,Coquimbo,574,2291,1539,-29.986880556,-71.342825,2865
+185.0,21-5-PO,Guacolda  esq. Larrondo,Coquimbo,1645,1113,1634,-29.963534,-71.346303,2758
+74.0,36-15-NS,Los Clarines  esq.  Carlos Fuentes NS,Coquimbo,515,2230,1868,-29.98857664,-71.3322460079,2745
+122.0,51-20-SN,Presidente Jose Manuel Balmaceda  esq.  Los Abedules SN,La Serena,1265,1468,2152,-29.93710401,-71.2611192722,2733
+25.0,14-0-SN,El Libertador  esq.  El Islon,La Serena,609,2079,2039,-29.8880704,-71.24284066,2688
+104.0,46-10-SN,Monjitas  esq.  Lautaro,La Serena,63,2537,1390,-29.8746218304,-71.2456687868,2600
+38.0,19-0-NS,Francisco Cabello  esq.  Las Vertientes,Coquimbo,315,2240,1711,-29.99515237,-71.3292081542,2555
+46.0,25-10-PO,Gaspar Marin  esq.  Nicaragua,La Serena,528,1990,1840,-29.882045421,-71.2417431053,2518
+95.0,42-20-OP,Manuel Jesus Rivera  esq.  John F. Kennedy,Coquimbo,1350,1095,1619,-29.97016818,-71.3368573412,2445
+163.0,10-10-SN,Cienfuegos  esq. Peatonal La Recova,La Serena,1838,605,1801,-29.9012928978,-71.2468516819,2443
+85.0,4-10-PO,Avenida Los Lagos  esq.  Lago Galletue,Coquimbo,1129,1288,1528,-29.95572853,-71.2714378849,2417
+135.0,51-50-NS,Presidente Jose Manuel Balmaceda  esq.  Los Lucumos NS,La Serena,1045,1368,1635,-29.94242545,-71.2642612117,2413
+167.0,16-20-OP,El Sauce  esq. Los Nardos,Coquimbo,1277,1124,1541,-29.987512,-71.341783,2401
+23.0,13-0-OP,El Islon  esq.  Ecuador,La Serena,2024,336,1633,-29.88864774,-71.2368447053,2360
+59.0,26-5-OP,Jose Joaquin Perez  esq.  El Amanecer OP,Coquimbo,891,1456,1647,-29.95954496,-71.2965995556,2347
+29.0,15-5-NS,El Santo  esq.  Avenida Amunategui,La Serena,1218,1036,1584,-29.9094185,-71.2552961501,2254
+176.0,16-25-PO,El Sauce  esq. Los Olivos,Coquimbo,143,2044,1060,-29.996447,-71.338244,2187
+136.0,51-50-SN,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard SN,La Serena,915,1265,1799,-29.918844783,-71.254062604,2180
+177.0,16-20-NS,El Sauce  esq. Raul Torres,Coquimbo,147,2023,1215,-29.993752,-71.338182,2170
+134.0,51-5-SN,Presidente Jose Manuel Balmaceda  esq.  Ralbun,La Serena,982,1157,1568,-29.94632742,-71.2666822622,2139
+181.0,36-30-PO,Los Clarines  esq. Juan Domingo Arce,Coquimbo,835,1273,1403,-29.978232,-71.345502,2108
+180.0,63-0-OP,Merino Jarpa esq. Ignacio Serrano,Coquimbo,301,1791,1255,-29.981594,-71.347236,2092
+4.0,2-5-NS,Anibal Pinto  esq.  Diego Portales,Coquimbo,1419,537,1180,-29.95684479,-71.3400846385,1956
+161.0,58-10-SN,Videla Oriente  esq.  Eleuterio Ramirez,Coquimbo,486,1455,1155,-29.9609420073,-71.3380863623,1941
+56.0,26-15-PO,Jose Joaquin Perez  esq.  El Amanecer PO,Coquimbo,794,1134,1324,-29.9598410233,-71.2970082845,1928
+42.0,22-5-PO,Huanhuali  esq.  Balmaceda,La Serena,744,1159,1339,-29.9149823324,-71.2528535611,1903
+117.0,51-10-NS,Presidente Jose Manuel Balmaceda  esq.  Las Encinas NS,La Serena,1117,777,1503,-29.9219021592,-71.2558103138,1894
+105.0,46-5-NS,Monjitas  esq.  Eleuterio Fredes,La Serena,1627,229,1045,-29.8785232688,-71.2461097134,1856
+14.0,7-5-NS,Brillador  esq.  Samuel Roman Rojas,La Serena,1547,191,1052,-29.8830498774,-71.2508864662,1738
+58.0,26-20-PO,Jose Joaquin Perez  esq.  Juan Arenas Martinez,Coquimbo,668,1029,1458,-29.9575131372,-71.2935417498,1697
+75.0,36-15-SN,Los Clarines  esq.  Carlos Fuentes SN,Coquimbo,652,1038,1126,-29.98877603,-71.3320378388,1690
+65.0,30-0-SN,La Conquista  esq.  Gregorio Argomedo,La Serena,138,1541,874,-29.8834596507,-71.2448733852,1679
+66.0,31-0-NS,La Reconquista  esq.  Adela Garcia,La Serena,1402,271,1089,-29.88831736,-71.2486445148,1673
+33.0,16-5-SN,El Sauce  esq. Marcos Rojas,Coquimbo,1261,392,1186,-29.99863002,-71.3352638546,1653
+8.0,4-0-NS,Avenida Los Lagos  esq.  Avenida Beltran Amenabar,Coquimbo,886,745,1175,-29.9523302526,-71.2808727981,1631
+129.0,51-40-NS,Presidente Jose Manuel Balmaceda  esq.  Los Abedules NS,La Serena,716,876,1220,-29.93724716,-71.2614116176,1592
+142.0,52-0-PO,Ramón Rodriguez esq.  Enrique Fernandez,Coquimbo,495,1081,1286,-29.9957409593,-71.3342874713,1576
+121.0,51-20-NS,Presidente Jose Manuel Balmaceda  esq.  Mercedes Cervello NS,La Serena,696,879,1129,-29.9245737776,-71.2571228,1575
+80.0,36-5-SN,Los Clarines  esq.  Aureliano Sanchez,Coquimbo,1273,276,975,-29.9934036944,-71.3278948113,1549
+5.0,3-0-NS,Arturo Alessandri  esq.  Tierra del Fuego,Coquimbo,510,1023,1196,-29.97248491,-71.3362272715,1533
+148.0,54-5-PO,Salvador Reyes  esq.  La Reconquista,La Serena,1313,212,1062,-29.8874807152,-71.2493467341,1525
+97.0,43-0-NS,Manuel Rodriguez  esq.  Lautaro,Coquimbo,134,1377,989,-29.95963876,-71.345920094,1511
+133.0,51-5-NS,Presidente Jose Manuel Balmaceda  esq.  Almirante Allard NS,La Serena,759,741,1166,-29.918308998,-71.2540247863,1500
+184.0,64-0-PO,Wenceslao Vargas esq. Panama,Coquimbo,946,478,989,-29.967696,-71.341873,1424
+90.0,42-0-PO,Manuel Jesus Rivera  esq.  Maestranza PO,Coquimbo,642,766,1196,-29.9696261953,-71.33406732,1408
+147.0,54-0-PO,Salvador Reyes  esq.  Rene Peri Fagestrom,La Serena,1117,290,1011,-29.8868571746,-71.2514041,1407
+131.0,51-45-NS,Presidente Jose Manuel Balmaceda  esq.  Cruz del Sur,La Serena,595,729,1150,-29.93969211,-71.2624345475,1324
+50.0,25-5-PO,Gaspar Marin  esq.  La Conquista,La Serena,1049,252,881,-29.8806988195,-71.2445805203,1301
+35.0,18-10-SN,Francisco Antonio Varela  esq.  Artesanos,Coquimbo,293,991,814,-29.9547374468,-71.3372886158,1284
+18.0,10-15-SN,Cienfuegos  esq.  Diego de Almagro,La Serena,554,721,1060,-29.8991880212,-71.2464364718,1275
+120.0,51-15-SN,Presidente Jose Manuel Balmaceda  esq.  Andromeda,La Serena,574,669,1021,-29.93981458,-71.2622486113,1243
+77.0,36-20-SN,Los Clarines  esq.  Aquiles Cabeza,Coquimbo,755,477,908,-29.9865505734,-71.33396896,1232
+137.0,51-55-NS,Presidente Jose Manuel Balmaceda  esq.  Los Juncos,La Serena,454,725,993,-29.945481953,-71.2663445619,1179
+156.0,57-0-NS,Videla  esq.  Eleuterio Ramirez,Coquimbo,911,236,399,-29.9606924825,-71.3385298134,1147
+41.0,22-0-PO,Huanhuali  esq.  Estadio,La Serena,595,543,1006,-29.91433232,-71.2548469913,1138
+53.0,26-10-OP,Jose Joaquin Perez  esq.  Rio Salado,Coquimbo,561,550,972,-29.9616992064,-71.3017808011,1111
+112.0,48-0-PO,Pedro Aguirre Cerda  esq.  Lautaro,La Serena,1037,67,796,-29.8741378,-71.2466608,1104
+169.0,16-30-OP,El Sauce  esq. Carlos Condell,Coquimbo,816,284,770,-29.98209,-71.348976,1100
+165.0,16-10-OP,El Sauce  esq. Los Olivos,Coquimbo,608,492,727,-29.996429,-71.337909,1100
+7.0,3-5-SN,Arturo Alessandri  esq.  Manuel Jesus Rivera,Coquimbo,671,424,744,-29.9705452521,-71.3365985029,1095
+110.0,47-5-OP,Panamericana Norte  esq.  Diez de Julio,MOP,375,709,771,-29.9668322531,-71.3265991964,1084
+37.0,18-5-SN,Francisco Antonio Varela  esq.  Pasaje Garriga,Coquimbo,347,723,757,-29.9563160086,-71.3376715769,1070
+160.0,57-5-SN,Videla  esq.  Carmona SN,Coquimbo,140,917,791,-29.9629026,-71.3366049186,1057
+103.0,46-0-SN,Monjitas  esq.  Guatemala,La Serena,108,940,729,-29.8788948902,-71.2460436065,1048
+2.0,1-0-OP,Alejandro Flores  esq.  Rio Campanario,La Serena,908,126,569,-29.8825915216,-71.2482609472,1034
+16.0,9-0-NS,Carlos Munoz Pizarro  esq.  Portugal Sur,Coquimbo,397,604,812,-29.9946651079,-71.3322074253,1001
+113.0,49-0-OP,Pedro Montt  esq.  Cochrane,Coquimbo,353,648,728,-29.9595567271,-71.34272968,1001
+45.0,25-0-OP,Gaspar Marin  esq.  Monjitas,La Serena,108,845,731,-29.8804245328,-71.24515143,953
+73.0,36-10-SN,Los Clarines  esq.  Dalivor Zuvic Caglevic,Coquimbo,641,300,728,-29.9920141159,-71.3296611405,941
+102.0,46-0-NS,Monjitas  esq.  Las Rosas,La Serena,843,74,671,-29.8756419097,-71.2458660362,917
+60.0,26-5-PO,Jose Joaquin Perez  esq.  Geronimo Mendez Arancibia PO,Coquimbo,307,606,708,-29.96356093,-71.3064148608,913
+44.0,24-0-PO,Jorge Pena Hen  esq.  Escultura Maria Fuentealba,La Serena,806,91,628,-29.8894457322,-71.2483466554,897
+166.0,16-15-SN,El Sauce  esq. Raul Torres,Coquimbo,649,233,598,-29.993947,-71.337837,882
+89.0,42-0-OP,Manuel Jesus Rivera  esq.  Carlos Barrios,Coquimbo,258,601,719,-29.970552,-71.32339,859
+130.0,51-40-SN,Presidente Jose Manuel Balmaceda  esq.  Las Encinas SN,La Serena,322,523,719,-29.9229653693,-71.2561091918,845
+116.0,51-0-SN,Presidente Jose Manuel Balmaceda  esq.  Jose Gil de Castro,La Serena,379,456,695,-29.952950575,-71.2681246294,835
+149.0,26-25-OP,Jose Joaquin Perez  esq.  La Cantera,Coquimbo,328,486,463,-29.96585578,-71.3112057415,814
+70.0,35-0-PO,Las Vertientes  esq.  Francisco Cabello,Coquimbo,581,233,576,-29.9949404393,-71.32985118,814
+179.0,16-10-PO,El Sauce  esq. Las Margaritas,Coquimbo,275,533,738,-29.984342211,-71.346068443,808
+67.0,32-0-OP,Las Heras  esq.  Santiago de Aldunate,Coquimbo,210,586,652,-29.9520069431,-71.3378105919,796
+109.0,47-10-OP,Panamericana Norte  esq.  18 de Septiembre,MOP,135,635,582,-29.9654127326,-71.3294595126,770
+119.0,51-15-NS,Presidente Jose Manuel Balmaceda  esq.  Punta de Teatinos,La Serena,300,432,595,-29.9230111443,-71.25635557,732
+106.0,46-5-SN,Monjitas  esq.  Esmeralda,La Serena,494,197,389,-29.87816988,-71.2459838291,691
+158.0,57-10-NS,Videla  esq.  Dario Salas,Coquimbo,470,218,298,-29.9677970701,-71.3360360057,688
+82.0,37-10-SN,Los Copihues  esq.  Los Alelies,Coquimbo,474,166,540,-29.9783530635,-71.341823846,640
+173.0,3-10-OP,Arturo Alessandri  esq. Cardenal Caro,Coquimbo,76,553,368,-29.967733,-71.339658,629
+182.0,64-10-PO,Wenceslao Vargas esq. Martín Badía,Coquimbo,410,218,500,-29.970385,-71.339198,628
+175.0,3-20-OP,Arturo Alessandri  esq. Pedro Aguirre Cerda,Coquimbo,84,538,350,-29.964499,-71.343619,622
+168.0,16-25-OP,El Sauce  esq. Las Margaritas,Coquimbo,289,321,465,-29.984806,-71.345271,610
+81.0,37-0-SN,Los Copihues  esq.  Los Nardos,Coquimbo,515,91,441,-29.9826123142,-71.3367135839,606
+152.0,56-10-NS,Suecia  esq.  Yugoeslavia,Coquimbo,213,374,530,-29.97013213,-71.3191469309,587
+150.0,56-0-PO,Suecia  esq.  Suiza,Coquimbo,311,258,550,-29.9663757702,-71.3195481421,569
+183.0,64-5-PO,Wenceslao Vargas esq. Cardenal Caro,Coquimbo,268,283,402,-29.968899,-71.340657,551
+93.0,42-15-OP,Manuel Jesus Rivera  esq.  Maestranza OP,Coquimbo,259,285,446,-29.9695481088,-71.3341315002,544
+101.0,45-5-OP,Miramar  esq.  Marbella,Coquimbo,142,386,466,-29.954697,-71.289628,528
+96.0,42-5-PO,Manuel Jesus Rivera  esq.  Carlos Dittborn,Coquimbo,231,285,420,-29.9702495371,-71.3275196367,516
+154.0,56-5-NS,Suecia  esq.  Dinamarca,Coquimbo,209,275,467,-29.968094391,-71.3190145606,484
+107.0,47-0-OP,Panamericana Norte  esq.  Cinco de Abril,MOP,160,323,426,-29.96581894,-71.321357105,483
+86.0,4-5-PO,Avenida Los Lagos  esq.  Colonia San Ramon,Coquimbo,240,241,415,-29.9555434037,-71.2755556208,481
+145.0,53-10-OP,Regimiento Arica  esq.  Miramar,Coquimbo,171,269,304,-29.95065236,-71.2820409765,440
+55.0,26-15-OP,Jose Joaquin Perez  esq. Rio Hurtado,Coquimbo,153,281,315,-29.9628159159,-71.3046987027,434
+170.0,27-5-PO,Ruta 5 esq. Los Clarines,Coquimbo,275,156,337,-29.978146,-71.346313,431
+31.0,16-0-SN,El Sauce  esq. Pasaje Las Higueras,Coquimbo,73,352,320,-30.0027056,-71.3321028,425
+98.0,43-0-SN,Manuel Rodriguez  esq.  Pedro Montt,Coquimbo,186,199,288,-29.9593264987,-71.3455982739,385
+20.0,11-0-SN,Circunvalacion Presidente Salvador Allende  esq.  Tulipanes,Coquimbo,193,181,343,-29.97553441,-71.3397965225,374
+83.0,37-5-SN,Los Copihues  esq.  Las Margaritas,Coquimbo,233,112,369,-29.9798694344,-71.3400458592,345
+151.0,56-0-SN,Suecia  esq.  Asia,Coquimbo,75,264,308,-29.9705455799,-71.3193993779,339
+155.0,56-5-SN,Suecia  esq.  Magallanes,Coquimbo,106,216,311,-29.9685937,-71.3189068688,322
+3.0,2-0-NS,Anibal Pinto  esq.  Barros Borgono,Coquimbo,145,172,281,-29.954062018,-71.3393818131,317
+172.0,23-5-PO,John F. Kennedy esq. Washington,Coquimbo,62,254,229,-29.971043,-71.338152,316
+68.0,33-0-PO,Las Parcelas  esq.  Los Jardines,Coquimbo,181,123,268,-29.952483238,-71.2899709051,304
+94.0,42-15-PO,Manuel Jesus Rivera  esq.  Brasil,Coquimbo,156,146,289,-29.9710186,-71.3213118,302
+174.0,3-15-OP,Arturo Alessandri  esq. Carmona,Coquimbo,28,242,180,-29.966299,-71.341158,270
+22.0,12-5-PO,Domeyko  esq.  San Miguel,Coquimbo,95,150,145,-29.96608277,-71.33073425,245
+6.0,3-0-SN,Arturo Alessandri  esq. Nueva,Coquimbo,128,115,198,-29.9722758866,-71.3361751887,243
+15.0,8-0-PO,Camilo Henriquez  esq.  Carrera,Coquimbo,153,88,214,-29.9578098445,-71.3419130145,241
+92.0,42-10-PO,Manuel Jesus Rivera  esq.  Felipe Aceituno,Coquimbo,80,157,145,-29.97039135,-71.3260157452,237
+159.0,57-5-NS,Videla  esq.  Carmona NS,Coquimbo,112,116,157,-29.9625785641,-71.337076228,228
+57.0,26-20-OP,Jose Joaquin Perez  esq.  Antonio Puga,Coquimbo,83,144,165,-29.96354312,-71.306633892,227
+99.0,44-0-PO,Miraflores  esq.  Santa Ester,Coquimbo,92,127,167,-29.9673432173,-71.326430462,219
+108.0,47-0-PO,Panamericana Norte  esq.  Acceso Caletera Sur,MOP,113,100,149,-29.9664819555,-71.32230502,213
+51.0,26-0-OP,Jose Joaquin Perez  esq.  Frutillar,Coquimbo,59,149,156,-29.9577750621,-71.2941258518,208
+153.0,56-10-OP,Suecia  esq.  Panamericana Norte,Coquimbo,91,116,146,-29.9661591276,-71.3198464048,207
+111.0,47-5-PO,Panamericana Norte  esq.  Acceso a Suecia,MOP,72,103,157,-29.96603438,-71.3212591259,175
+21.0,12-0-PO,Domeyko  esq.  Recoleta,Coquimbo,48,86,125,-29.9668139,-71.3326934954,134
+62.0,28-0-OP,La Cantera  esq.  Calle Vega Sur,Coquimbo,34,65,89,-29.9647619211,-71.31386463,99
+171.0,27-10-PO,Ruta 5 esq. Los Copihues,Coquimbo,45,41,72,-29.976517,-71.344512,86
+36.0,18-15-SN,Francisco Antonio Varela  esq.  Las Heras,Coquimbo,17,64,61,-29.9525837026,-71.3367547343,81
+76.0,36-20-NS,Los Clarines  esq.  Victor Taborga Vega,Coquimbo,10,58,49,-29.9901772969,-71.3313393326,68
+13.0,7-0-NS,Brillador  esq. Mercedes Marin del Solar,La Serena,43,6,21,-29.8849625355,-71.2515547609,49
+63.0,29-0-PO,La Cantera Sur  esq.  Rio Lauca,Coquimbo,10,31,88,-29.9645737119,-71.3145959842,41
+146.0,53-5-OP,Regimiento Arica  esq.  San Ramon,Coquimbo,5,35,35,-29.94937878,-71.2766569071,40
+43.0,23-0-PO,John F. Kennedy esq. Videla,Coquimbo,10,9,26,-29.9684311101,-71.3353337736,19
